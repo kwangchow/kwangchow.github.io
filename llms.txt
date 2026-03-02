@@ -1,0 +1,46 @@
+# Sean Taylor
+
+> Games industry veteran, consultant, strategic advisor, and author based in Dundee, Scotland.
+
+## Identity
+
+- Name: Sean Taylor
+- Location: Dundee, Scotland, UK
+- Website: https://seantaylor.work
+- Notes: https://notes.seantaylor.work
+- LinkedIn: https://www.linkedin.com/in/mrseantaylor/
+
+## What I do
+
+I help good people do great things in the games industry and adjacent creative sectors. I provide specialist consultancy and strategic advisory to the games industry, public sector, and higher education in the UK and MENA.
+
+I co-pilot Playhaus (the Playful Media Lab) and run SVLT, my playful product studio.
+
+## Key achievements
+
+- Joined DMA Design in 1996 during production of the original Grand Theft Auto
+- Spent 10 years at Denki as Entertainment Product Architect
+- Founded and led InGAME (Innovation for Games and Media Enterprise), the UK's national research and innovation centre for video games, backed by £5.3M UK Government funding via AHRC/UKRI. Delivered 177 industry collaborations, upskilled 2,283 professionals, stimulated £11.5M in industry co-investment, and projected £84.7M GVA over 10 years (16x return on public investment)
+- Co-authored "Punk Playthings: Provocations for 21st Century Game Makers" (CRC Press, 2017) with Chris Lowthorpe
+- 25+ years experience across game production, R&D strategy, innovation labs, and games education
+
+## Domains of expertise
+
+- Video game production and design
+- R&D and innovation strategy
+- Creative industries policy and public sector advisory
+- Games education and skills development
+- Playful design and interactive experiences
+- Studio and publisher consultancy
+
+## Current projects
+
+- Playhaus: the Playful Media Lab (with Dr Chris Lowthorpe)
+- SVLT: playful product studio
+- Attention Yield: consultancy framework
+- Denki Dojo: experimental project
+
+## Site structure
+
+- / — Landing page (highlights, links)
+- /notes — Blog and notes (hosted on Bear Blog at notes.seantaylor.work)
