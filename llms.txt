@@ -1,6 +1,6 @@
 # Sean Taylor
 
-> BAFTA-winning games industry veteran, exec producer, product architect, fractional CPO, and author. Made in Scotland, based in Dubai.
+> BAFTA-winning exec producer, product architect, fractional CPO, and author. 30 years making games and interactive amusements. Made in Scotland, based in Dubai.
 
 ## Identity
 
@@ -15,35 +15,35 @@
 
 ## What I do
 
-Exec Producer, Product Architect and Fractional CPO with 30 years in games and interactive entertainment. I advise, write, build labs and run experiments. I provide specialist consultancy and strategic advisory to the games industry, public sector, and higher education in the UK and MENA.
+I make great things and help people make great things. BAFTA-winning exec producer, game design author, and 16× ROI ecosystem builder. Currently: fractional CPO, startup advisor, ecosystem builder, and agentic-amusements experimenter.
 
 ## Key achievements
 
-- Started career at DMA Design (now Rockstar North) during production of the original Grand Theft Auto. Credits include GTA, GTA 2, and Body Harvest
-- Produced Quarrel from vertical slice to award-winning IP at Denki, winning a BAFTA and three TIGA Awards
-- Founded and led InGAME (Innovation for Games and Media Enterprise), the UK's national games innovation centre — 177 R&D projects, £85M in economic impact, 16x return on £5.3M public investment in five years (2018–2023)
+- Started career at DMA Design (now Rockstar North) during production of the original Grand Theft Auto — one of the most commercially successful entertainment franchises in history. Credits include GTA, GTA 2, and Body Harvest
+- Produced Quarrel from vertical slice to award-winning IP at UK casual games pioneer Denki — scaling the team, establishing the studio's original IP development process, and winning a BAFTA and three TIGA Awards
+- Built InGAME (Innovation for Games and Media Enterprise), the UK's national games innovation centre, from the ground up — 177 R&D projects, £85M in economic impact, 16x return on public investment in five years (2018–2023)
 - Co-authored "Punk Playthings: Provocations for 21st Century Game Makers" (CRC Press, 2017) with Chris Lowthorpe
-- Shipped 100+ games across console, mobile, web and emerging platforms for brands including Family Guy, Fox, Heineken, Lego, Mad Libs, Mattel, Moshi Monsters, Nestlé, Reebok, Scooby Doo, Shrek, and Star Wars
+- Shipped 100+ games across console, mobile, web and emerging platforms. Brands include Family Guy, Fox, Heineken, Lego, Mad Libs, Mattel, Moshi Monsters, Nestlé, Reebok, Scooby Doo, Shrek, and Star Wars
 
 ## Domains of expertise
 
-- Video game production and design
 - Executive production and product architecture
-- R&D and innovation strategy
+- Fractional CPO and startup advisory
+- R&D and innovation strategy / ecosystem building
+- Video game production and design
 - Creative industries policy and public sector advisory
 - Games education and skills development
 - Playful design and interactive experiences
-- Studio and publisher consultancy
-- Fractional CPO / leadership
+- Agentic amusements and emerging platforms
 
 ## Current projects
 
-- Playhaus: the Playful Media Lab (with Dr Chris Lowthorpe)
-- SVLT: playful product studio
-- Attention Yield: consultancy framework
-- Denki Dojo: experimental project
+- Fractional CPO and startup advisor
+- Ecosystem builder
+- Agentic-amusements experimenter
+- Playhaus (Substack / Playful Media Lab, with Dr Chris Lowthorpe)
 
 ## Site structure
 
-- / — Landing page (highlights, follow links)
+- / — Landing page (summary, highlights, follow links)
 - /notes — Blog and notes (hosted on Bear Blog at notes.seantaylor.work)
