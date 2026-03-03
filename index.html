@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sean Taylor</title>
-  <meta name="description" content="Games industry veteran, consultant, and author. 25+ years making games and interactive amusements.">
+  <meta name="description" content="BAFTA-winning game producer and author. 30 years making games and interactive amusements. Shipped 100+ titles. Built ecosystems with 16× ROI.">
 
   <!-- JSON-LD structured data for LLM + SEO -->
   <script type="application/ld+json">
@@ -18,12 +18,18 @@
     "knowsAbout": ["Video Games", "Interactive Entertainment", "Innovation", "R&D Strategy", "Games Education", "Playful Design", "Creative Industries"],
     "sameAs": [
       "https://www.linkedin.com/in/mrseantaylor/",
-      "https://www.instagram.com/heyseantaylor/",
-      "https://x.com/kwangchow"    ],
+      "https://www.instagram.com/kwangchow/",
+      "https://x.com/kwangchow"
+    ],
     "author": {
       "@type": "Book",
       "name": "Punk Playthings: Provocations for 21st Century Game Makers",
-      "url": "https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224"
+      "url": "https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224",
+      "publisher": {
+        "@type": "Organization",
+        "name": "CRC Press"
+      },
+      "datePublished": "2017-11-27"
     }
   }
   </script>
@@ -41,6 +47,15 @@
       --link-hover: #666;
       --border: #e0e0e0;
       --max-width: 600px;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+      font-weight: 600;
     }
 
     body {
@@ -71,6 +86,23 @@
     .subtitle {
       color: var(--text-secondary);
       font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Summary bullets (header) */
+    .summary {
+      margin-top: 0.6rem;
+      padding-left: 1.2rem;
+      list-style: disc;
+      max-width: min(52ch, 100%);
+    }
+
+    .summary li {
+      padding: 0;
+      margin: 0.3rem 0;
+      border: none;
+      font-size: 1.02rem;   /* slightly larger than highlights (0.95rem) */
+      line-height: 1.38;    /* tighter wrap */
     }
 
     /* Highlights */
@@ -120,14 +152,6 @@
       font-size: 0.95rem;
     }
 
-    .notes-link a {
-      color: var(--link);
-      text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-
-    .notes-link a:hover { color: var(--link-hover); }
-
     /* Footer */
     footer {
       margin-top: 3rem;
@@ -137,18 +161,22 @@
       color: var(--text-secondary);
     }
   </style>
+
 </head>
 <body>
   <main>
     <header>
       <h1>Sean Taylor</h1>
-      <p class="subtitle"><i>30 years making games and interactive amusements.</i><br>    
-      <br>→ I make new things and help good people make new things.<br>
-      → BAFTA-winning game producer. Game design author. 16x ROI ecosystem builder.<br>
-      → Currently: fractional game tech CPO, startup advisor, ecosystem builder, agentic-amusements experimenter.</p>
+
+      <p class="subtitle"><em>30 years making games and interactive amusements.</em></p>
+      <ul class="summary" aria-label="Summary">
+        <li>I make great things and help people make great things.</li>
+        <li>BAFTA-winning exec producer. Game design author.<br>16× ROI ecosystem builder.</li>
+        <li>Currently: fractional CPO, startup advisor, ecosystem builder, agentic-amusements experimenter.</li>
+      </ul>
     </header>
 
-	<section aria-label="Highlights">
+    <section aria-label="Highlights">
       <p class="section-label">Highlights</p>
       <ul class="highlights">
         <li>Started my career at DMA Design (now Rockstar North) during the creation of <strong>Grand Theft Auto</strong> — one of the most commercially successful entertainment franchises in history. Credits include GTA, GTA 2 and Body Harvest.</li>
@@ -159,7 +187,7 @@
       </ul>
     </section>
 
-	<nav class="follow-section" aria-label="Follow along">
+    <nav class="follow-section" aria-label="Follow along">
       <p class="section-label">Follow Along</p>
       <div class="follow">
         <a href="https://notes.seantaylor.work">Notes</a>
@@ -171,7 +199,7 @@
     </nav>
 
     <footer>
-      <p>Sean Taylor &middot; Made in Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇦🇪 Based in Dubai &middot; seantaylor.work</p>
+      <p>Sean Taylor &middot; Made in Scotland 🏴🇦🇪 Based in Dubai &middot; seantaylor.work</p>
     </footer>
   </main>
 </body>
