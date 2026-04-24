@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Punk Provocations — Playhaus</title>
+  <meta name="description" content="Twenty provocations for game makers in the age of amusement. A remix of Punk Playthings (2017) for post-industrial reality. By Chris Lowthorpe and Sean Taylor.">
+  <meta name="author" content="Chris Lowthorpe &amp; Sean Taylor">
+
+  <link rel="canonical" href="https://seantaylor.work/punk-provocations/">
+
+  <!-- Open Graph / social share -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Punk Provocations">
+  <meta property="og:description" content="Twenty provocations for game makers in the age of amusement. A remix of Punk Playthings (2017) for post-industrial reality.">
+  <meta property="og:url" content="https://seantaylor.work/punk-provocations/">
+  <meta property="og:image" content="https://seantaylor.work/punk-provocations/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://seantaylor.work/punk-provocations/og-image.jpg">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <style>
+    :root {
+      --bg: #f7f7eb;
+      --fg: #010101;
+      --muted: #5a5648;
+      --accent: #e85294;   /* sampled from PP-01 background */
+      --rule: #d9d3bd;
+      --tile-bg: #ece6d4;
+      --max: 42rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 400 1.0625rem/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-feature-settings: "ss01", "cv01";
+      padding: 3rem 1.25rem 5rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 6vw + 1rem, 4.5rem);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+      font-weight: 900;
+      margin: 0 0 1.5rem;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 3rem 0 1rem;
+      color: var(--fg);
+    }
+
+    p { margin: 0 0 1.25rem; }
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+
+    blockquote {
+      margin: 0 0 2rem;
+      padding-left: 1.25rem;
+      border-left: 3px solid var(--accent);
+      font-style: italic;
+      color: var(--fg);
+      font-size: 1.0625rem;
+    }
+    blockquote cite {
+      display: block;
+      margin-top: 0.5rem;
+      font-style: normal;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    .warning {
+      font-weight: 700;
+      border: 2px solid var(--fg);
+      padding: 1rem 1.25rem;
+      margin: 0 0 1.5rem;
+      text-transform: none;
+    }
+
+    s, del { color: var(--muted); text-decoration-thickness: 2px; }
+
+    ul.signals {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.5rem;
+    }
+    ul.signals li {
+      margin: 0.35rem 0;
+    }
+
+    /* ---------- Flyer grid ---------- */
+    .grid-wrap {
+      max-width: 1400px;
+      margin: 4rem auto 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    @media (min-width: 640px) {
+      .grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    .tile {
+      display: block;
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      background: var(--tile-bg);
+      position: relative;
+      transform: translateZ(0);
+      transition: transform 180ms ease, filter 180ms ease;
+    }
+    .tile img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tile:hover, .tile:focus-visible {
+      transform: scale(1.02);
+      filter: brightness(1.08);
+      outline: none;
+    }
+    .tile:focus-visible {
+      box-shadow: 0 0 0 3px var(--accent);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .tile, .tile:hover, .tile:focus-visible { transform: none; transition: none; }
+    }
+
+    footer {
+      max-width: var(--max);
+      margin: 5rem auto 0;
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Punk Provocations</h1>
+
+    <blockquote>
+      "Punk was an attitude. It was never about having a Mohican haircut or wearing a ripped T-shirt. It was all about destruction, and the creative potential within that."
+      <cite>— Malcolm McLaren</cite>
+    </blockquote>
+
+    <hr>
+
+    <p class="warning">Warning: If you want a silver bullet for efficient game making or a step-by-step guide to receiving game dev hero worship, you're in the wrong place.</p>
+
+    <p>Close this tab. This series has zero respect for boundaries between mediums, industries, sectors, specialisms or disciplines. It challenges you to expand your cultural capital, think laterally and make new connections.</p>
+
+    <p><strong><em>Punk Provocations</em></strong> is not for everyone. But it might be for you.</p>
+
+    <h2>What This Is</h2>
+
+    <p>In 2017, we (Chris Lowthorpe and Sean Taylor) wrote <strong><em><a href="https://www.goodreads.com/en/book/show/36912469-punk-playthings" target="_blank" rel="noopener">Punk Playthings: Provocations for 21st Century Game Makers</a></em></strong>. It was an antidote to the complacency and orthodoxy we saw calcifying around independent game development — the cargo cult processes, the hero worship, the premature incorporation, the relentless pursuit of efficiency over meaning.</p>
+
+    <p>We argued for playthings over products. Culture over commodity. Entrepreneurship over ennui. In that moment, we were <s>too far ahead of our time</s> wrong.</p>
+
+    <p>On the cusp of 2026, the timing fits.</p>
+
+    <ul class="signals">
+      <li><a href="https://www.owenmahoney.ai/owen-mahoney-blog/how-empires-die" target="_blank" rel="noopener">Empires are dying</a></li>
+      <li><a href="https://www.pushtotalk.gg/p/the-games-industry-is-deprofessionalizing" target="_blank" rel="noopener">Industry is deprofessionalising</a></li>
+      <li><a href="https://speedrun.substack.com/p/8-hot-takes-on-vibe-coding-games" target="_blank" rel="noopener">Tools, techniques and technologies are democratising</a></li>
+      <li><a href="https://www.pocketgamer.biz/robloxs-steal-a-brainrot-becomes-first-game-to-surpass-25m-concurrent-players/" target="_blank" rel="noopener">Lofi, DIY playthings are creating culture <em>and</em> collateral</a></li>
+    </ul>
+
+    <p><em>Punk Playthings</em> was prescient. Many of its probes and provocations feel right for the hard times the games industry finds itself in now. But you can't map the future in the rearview mirror. There are newer, better ways to dream, think and do the work of play in the age of amusement. So we're remixing the thesis for a post-industrial reality.</p>
+  </main>
+
+  <section class="grid-wrap" aria-label="The twenty provocations">
+    <div class="grid">
+      <a class="tile" href="https://playhaus.substack.com/p/no-silver-bullets">
+        <img src="flyers/pp-01-no-silver-bullets.webp" alt="PP-01 — No Silver Bullets" width="1080" height="1920" loading="eager" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/your-new-old-arsenal">
+        <img src="flyers/pp-02-your-new-old-arsenal.webp" alt="PP-02 — Your New/Old Arsenal" width="1080" height="1920" loading="eager" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/why-we-create">
+        <img src="flyers/pp-03-why-we-create.webp" alt="PP-03 — Why We Create" width="1080" height="1920" loading="eager" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/itchy-knickers">
+        <img src="flyers/pp-04-itchy-knickers.webp" alt="PP-04 — Itchy Knickers" width="1080" height="1920" loading="eager" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/dont-fight-it-feel-it">
+        <img src="flyers/pp-05-dont-fight-it-feel-it.webp" alt="PP-05 — Don't Fight It, Feel It" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/art-et-science">
+        <img src="flyers/pp-06-art-et-science.webp" alt="PP-06 — Art et Science" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/after-the-goldrush">
+        <img src="flyers/pp-07-after-the-goldrush.webp" alt="PP-07 — After the Goldrush" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/digging-your-scene">
+        <img src="flyers/pp-08-digging-your-scene.webp" alt="PP-08 — Digging Your Scene" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/premature-incorporation">
+        <img src="flyers/pp-09-premature-incorporation.webp" alt="PP-09 — Premature Incorporation" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/stop-just-making-stuff">
+        <img src="flyers/pp-10-stop-just-making-stuff.webp" alt="PP-10 — Stop Just Making Stuff" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/what-if">
+        <img src="flyers/pp-11-what-if.webp" alt="PP-11 — What If..." width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/skal">
+        <img src="flyers/pp-12-skal.webp" alt="PP-12 — Skál" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/a-certain-ratio">
+        <img src="flyers/pp-13-a-certain-ratio.webp" alt="PP-13 — A Certain Ratio" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/it-aint-what-you-do">
+        <img src="flyers/pp-14-it-aint-what-you-do.webp" alt="PP-14 — It Ain't What You Do" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/in-and-out-the-eagle">
+        <img src="flyers/pp-15-in-and-out-the-eagle.webp" alt="PP-15 — In and Out of the Eagle" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/fairy-tales-and-centrefolds">
+        <img src="flyers/pp-16-fairy-tales-and-centrefolds.webp" alt="PP-16 — Fairy Tales and Centrefolds" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/patronize-me-please">
+        <img src="flyers/pp-17-patronize-me-please.webp" alt="PP-17 — Patronize Me, Please" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/modern-love">
+        <img src="flyers/pp-18-modern-love.webp" alt="PP-18 — Modern Love" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/amp-it-up">
+        <img src="flyers/pp-19-amp-it-up.webp" alt="PP-19 — Amp It Up" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+      <a class="tile" href="https://playhaus.substack.com/p/just-like-starting-over">
+        <img src="flyers/pp-20-just-like-starting-over.webp" alt="PP-20 — (Just Like) Starting Over" width="1080" height="1920" loading="lazy" decoding="async">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>A Playhaus Production &middot; Chris Lowthorpe &amp; <a href="https://seantaylor.work" target="_blank" rel="noopener">Sean Taylor</a> &middot; <a href="https://playhaus.substack.com/">Subscribe on Substack</a></p>
+  </footer>
+
+</body>
+</html>
