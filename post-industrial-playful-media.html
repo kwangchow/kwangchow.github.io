@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post-Industrial Playful Media — Sean Taylor</title>
+  <meta name="description" content="Theses in progress about a world where distribution is infinite, attention is scarce and participatory playthings replace games.">
+  
+  <style>
+    /* Reset */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --text-muted: #888;
+      --bg: #fafafa;
+      --link: #1a1a1a;
+      --link-hover: #666;
+      --border: #e0e0e0;
+      --rule: #ccc;
+      --max-width: 680px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 4rem 1.5rem 3rem;
+    }
+
+    /* Header */
+    header { margin-bottom: 2.5rem; }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.4;
+      margin-bottom: 0.75rem;
+    }
+
+    .version {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      font-style: italic;
+    }
+
+    /* Section labels (Act headers) */
+    .section-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin: 3rem 0 1.5rem;
+      font-weight: 600;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .lede-section {
+      margin: 2.5rem 0;
+      padding: 1.75rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stack {
+      font-size: 1rem;
+      line-height: 1.85;
+      color: var(--text);
+      margin-top: 0.5rem;
+    }
+
+    /* Articles (theories) */
+    article { margin-bottom: 2.25rem; }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.97rem;
+      line-height: 1.6;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    blockquote {
+      margin: 1.25rem 0;
+      padding: 0.5rem 0 0.5rem 1.25rem;
+      border-left: 3px solid var(--rule);
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
+    blockquote p {
+      margin-bottom: 0.5rem;
+    }
+
+    blockquote p:last-child { margin-bottom: 0; }
+
+    em { font-style: italic; }
+    strong { font-weight: 700; }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 0.18em;
+      transition: text-decoration-color 0.15s, color 0.15s;
+    }
+
+    a:hover {
+      color: var(--link-hover);
+      text-decoration-color: var(--link-hover);
+    }
+
+    /* Back link */
+    .back {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .back:hover { color: var(--text); }
+
+    /* Follow section */
+    .follow-section { margin-top: 3rem; }
+
+    .follow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+    }
+
+    .follow a {
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    .follow a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    footer a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    footer a:hover { color: var(--text); }
+
+    /* Mobile tweaks */
+    @media (max-width: 480px) {
+      main { padding: 2.5rem 1.25rem 2rem; }
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.15rem; }
+      .subtitle { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="/" class="back">&larr; seantaylor.work</a>
+
+    <header>
+      <h1>Post-Industrial Playful Media</h1>
+      <p class="subtitle">Theses in progress about a world where distribution is infinite, attention is scarce and participatory playthings replace games.</p>
+      <p class="version">Version 0.2 — working notebook — May 2026</p>
+    </header>
+
+    <section>
+      <p>The games industrial complex, as we knew it, is gone.</p>
+      <p>This is not decline. It&rsquo;s a <a href="https://www.goodreads.com/book/show/670089.The_Fourth_Turning">turning</a>.</p>
+      <p>The industrial games business was built around products, platforms, pipelines and permission. The post-industrial playful media business is being built around attention, participation and patronage.</p>
+    </section>
+
+    <section class="lede-section">
+      <p>Post-industrial playful media is built around participatory economies:</p>
+      <p class="stack">
+        built from <strong>attention engines</strong><br>
+        composed of <strong>amusements</strong><br>
+        entered through <strong>attract modes</strong><br>
+        retained through <strong>ritual, progress and status</strong><br>
+        accumulated inside <strong>universes</strong><br>
+        monetised by <strong>patronage</strong><br>
+        compounded through <strong>collateral</strong>
+      </p>
+    </section>
+
+    <p class="section-label">Act I &mdash; From Industry to Topology</p>
+
+    <article>
+      <h2>Subduction Homesick Blues</h2>
+      <p>The industrial era of games is over.</p>
+      <p><a href="https://www.owenmahoney.ai/owen-mahoney-blog/how-empires-die">Empires are dying</a>. <a href="https://gamedevreports.substack.com/p/hushcrasher-games-budgets-and-did">Costs are rising</a>. <a href="https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026">Growth is flat and participation rates are declining</a>. <a href="https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026">The majority of playtime and spend consolidates around a small collection of evergreen titles, breakouts are rarer</a>. <a href="https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026">Games are losing the attention war to &lsquo;novel interactive competitors&rsquo;</a>. <a href="https://www.pushtotalk.gg/p/the-games-industry-is-deprofessionalizing">The industry is deprofessionalising</a>. <a href="https://speedrun.substack.com/p/8-hot-takes-on-vibe-coding-games">The tools, the techniques and the technologies are democratising</a>. Everything. Everywhere. All at once.</p>
+      <p>In the post-industrial era, the business of gamemaking no longer fits neatly into boxes. It spreads into four territories with different economics, different expectations, different attention models and different failure modes.</p>
+      <p><strong>Prestige content &mdash; &ldquo;Hollywood.&rdquo;</strong> Tent-pole spectacles and forever franchises. Studio-led, cinematic, iconic. High investment, polished, scarce. <em>Grand Theft Auto</em> is the canonical example: <em>The Sopranos</em> of videogames, canonised by critics, built with massive budgets and conspicuous craft, wrapped in scarcity theatre and surrounded by its own lore. Prestige turns fidelity and creativity into cultural capital and record-breaking revenue.</p>
+      <p><strong>Artisanal experiences &mdash; &ldquo;Art House.&rdquo;</strong> Cult classics, niche communities, indie aesthetics. Auteur-led, vision-led, focused, hand-crafted, intentional. High fidelity with a clear aesthetic identity. <em>Disco Elysium</em>, <em>Outer Wilds</em>, <em>Monument Valley</em>, <em>Journey</em>, <em>Firewatch</em>&hellip;</p>
+      <p><strong>Punk Playthings &mdash; &ldquo;Garage.&rdquo;</strong> UGC playgrounds. Attention engines. Pithy playthings. Creator-led and user-generated. Participatory, lo-fi, expressive, short-form, remixable. Memetic, social, trend-driven. The current canonical example is <em>Steal a Brainrot</em>: a permission-less, remixable micro-format with no proprietary IP, no professional budget, no gatekeepers. It converts audiences into authors and spreads by copying. It proves that lo-fi, scrappy design can deliver outsized participation and returns.</p>
+      <p><strong>Processed Playthings &mdash; &ldquo;Pop.&rdquo;</strong> Mass-produced amusements with low attention demand. Studio, platform, or network led. Algorithmic, episodic, serialised. Low friction, low focus, low stakes, low cognitive load. Hook-first, well-crafted and optimised for the algorithm; UA arbitrage at scale; and daily snack play. <em>Candy Crush</em> is the archetype: an endlessly rotating playable that trades depth for reach, working habit loops and pay-for-convenience at planetary scale.</p>
+    </article>
+
+    <article>
+      <h2>The Middle of Nowhere</h2>
+      <p>Attention and money are pulled to the edges. The middle is where companies die. Too big to sustain on word of mouth, too poor to survive on critical acclaim, too weird to penetrate mainstream culture but too square to persuade the punks.</p>
+      <p>The cost structures, risk-reward assumptions and creative differentiation strategies that once supported mid-market production are broken.</p>
+      <p>Every boutique publisher sliding toward &ldquo;we just need a hit&rdquo; is mid-market in denial. Every studio whose differentiation pitch is &ldquo;production values&rdquo; is mid-market in denial. Every fund deploying capital into a &ldquo;<a href="https://en.wikipedia.org/wiki/McMansion">McMansion</a>&rdquo; publishing operation is funding <a href="https://en.wikipedia.org/wiki/Atari_video_game_burial">digital landfill</a>.</p>
+      <p>The strategic move is not to fight your way back to the middle. It is to map your territory &mdash; and then design <em>your</em> attention model, <em>your</em> distribution architecture and <em>your</em> value-capture model around <em>your</em> specific intentions, ambitions, economics and expectations.</p>
+      <p>TLDR; MOR is DOA.</p>
+    </article>
+
+    <article>
+      <h2>The Great Inversion</h2>
+      <p>For most of the industrial era, distribution was scarce and attention was abundant. The hard problem was getting your work onto a shelf, into a store or onto a platform. Once it was there, finding an audience was a matter of marketing.</p>
+      <p>It is now the opposite. <strong>Distribution is infinite. Attention is scarce.</strong></p>
+      <p>The available number of hours hasn&rsquo;t changed but the number of things competing for them has multiplied beyond comprehension.</p>
+      <p><a href="https://platforms.substack.com/p/from-railroads-to-roblox-designing">Sangeet Paul Choudary</a> names the structural shift: <em>&ldquo;New economies emerge not simply when a technology speeds things up, but when the <strong>atomic unit of value</strong> shifts.&rdquo;</em> The atomic unit is moving from the finished game to active participation in an experience. The new constraints are what make new markets possible. Incumbents stay locked in because their structures are tuned to the old unit; they copy features but remain bound by old incentives. <em>&ldquo;It is not speed or vision that determines the outcome, but structural alignment.&rdquo;</em></p>
+      <p>Every strategic assumption inherited from the industrial era is now wrong.</p>
+      <p>The old model assumed you build the product, then acquire users through platform distribution and paid marketing. The new model designs distribution, participation, patronage and direct value capture as part of the product architecture <em>from day one</em>.</p>
+      <p>The implication is harder than it sounds. It is not &ldquo;do marketing earlier.&rdquo; It is not &ldquo;build community.&rdquo; It is not &ldquo;make people want things&hellip;but do it better&rdquo;. It is that the product, the channel, the model and the community are no longer separable. It&rsquo;s a singular <a href="https://www.goodreads.com/book/show/19271457-dark-matter-and-trojan-horses-a-strategic-design-vocabulary">strategic design</a> challenge. It&rsquo;s ecosystem engineering.</p>
+    </article>
+
+    <article>
+      <h2>Everything Is a Games Platform</h2>
+      <p>Every smart platform surface understands that attention is everything and games are a great way to capture <em>and</em> retain it. <em>Wordle</em> every day. Playable ads to progress in Duolingo. The <em>NYT</em>&rsquo;s puzzle stack now <a href="https://x.com/aakashgupta/status/2025440394390241391">driving subscriber retention</a> more reliably than the news desk. LinkedIn&rsquo;s posting streaks. Strava&rsquo;s activity heatmap. TBPN every weekday morning. <em>Heads Up</em> after dinner with friends. <a href="https://www.eugenewei.com/blog/2019/2/19/status-as-a-service">Status Games</a> and <a href="https://julian.digital/2020/03/28/signaling-as-a-service/">Signalling as a Service</a>.</p>
+      <p>Everything is now a games platform &mdash; or will be soon &mdash; though &ldquo;games&rdquo; is now too small a word for what is happening.</p>
+      <p>The underpriced opportunity is not another game on another storefront. It is recognising that many software, media, commerce, social and sport surfaces now function as playful media platforms.</p>
+      <p>If you understand play, participation, progression, attention, status and ritual then &ldquo;everything is a games platform&rdquo; stops being a slogan and starts being a strategic invitation.</p>
+      <p>And if everything is a games platform, then everywhere is a distribution channel with an attention arbitrage opportunity.</p>
+    </article>
+
+    <p class="section-label">Act II &mdash; From Products to Participation</p>
+
+    <article>
+      <h2>Participation is the Product</h2>
+      <p>Everyone is not a gamer but everyone is a participant in playful media.</p>
+      <p>The distinction matters because &ldquo;the gamer&rdquo; drags the argument back to explicit play: game loaded, controller in hand, session launched. But the post-industrial opportunity is much bigger than that.</p>
+      <p>Participation is the product. And play is one of its most powerful forms.</p>
+      <p>A person can participate in an experience by playing, but also by watching, clipping, coordinating, collecting, commenting, predicting, voting, backing, remixing, roleplaying, creating, performing, governing, sharing, shaping or simply belonging.</p>
+      <p><a href="https://koomen.dev/essays/horseless-carriages/">Peter Kooman&rsquo;s &ldquo;horseless carriages&rdquo;</a> names the failure mode: AI products mimic old constraints instead of designing for new behaviours. As <a href="https://stratechery.com/2025/google-earnings-search-and-ai-building-ai-products/">Ben Thompson</a> sharpens it: stop <em>&ldquo;doing for the user&rdquo;</em>; shift to enabling users to <em>&ldquo;systematically solve their own problems&rdquo;</em>. UGC markets in everything is where it&rsquo;s going &mdash; whether at the interaction layer, the progression layer or the status layer. The design goal is to create the conditions for users to curate their own amusements.</p>
+      <p>This changes the question. Not: how do we get people to play? But: how do we get people to participate in the &lsquo;world&rsquo; we&rsquo;re building &mdash; at every layer, with every level of intensity &mdash; and make that participation meaningful and memorable?</p>
+    </article>
+
+    <article>
+      <h2>Attention Engines</h2>
+      <p>You can no longer build dumb, self-contained objects.</p>
+      <p><a href="https://en.wikipedia.org/wiki/A_Year_with_Swollen_Appendices">Brian Eno</a>: <em>&ldquo;Attention is what creates value. Artworks are made as well by how people interact with them &mdash; and therefore by what quality of interaction they can inspire&hellip; Perhaps the art of the future will be indistinguishable.&rdquo;</em></p>
+      <p>The same applies to playful media. Stop thinking about playthings as finished objects. Start thinking about them as <a href="https://playhaus.substack.com/p/stop-just-making-stuff">triggers for experiences</a>. <a href="https://cultishcreative.com/p/anything-you-create-you-co-create-with-your-audience-my-top-just-press-record-24-moment-6">Dave Nadig</a>: <em>&ldquo;Anything you&rsquo;re making that&rsquo;s going to be seen by another human being is co-created.&rdquo;</em> <a href="http://blog.aweissman.com/2021/03/on-art-and-business-and-context-and.html">Mamet via Andy Weissman</a>: <em>&ldquo;It&rsquo;s not the thing that matters, but the thing about the thing.&rdquo;</em></p>
+      <p>What you&rsquo;re actually building is an <strong>attention engine</strong> &mdash; a carefully crafted, highly curated system that converts attention into participation, participation into retention, retention into identity and identity into patronage. Attention is the fuel. Participation is the work the engine does.</p>
+      <p>Most games do not have a content problem, they have an attention problem. They leak attention before it converts into participation, identity or patronage. The unit of strategic value in 2026 is not the asset. It is discovery, participation, retention, ritual, status, identity, creator surfaces and value capture arranged so they compound, not so they spike.</p>
+      <p>This is the diagnostic lens: <em>Where does attention enter? Where does it leak? Where does it consolidate? What does participation look like at every level of intensity? What ritual brings it back? What changes because someone showed up?</em></p>
+    </article>
+
+    <article>
+      <h2>Amusements in the Age of Attention</h2>
+      <p>Games are not disappearing. They are dissolving into a broader field of <em>amusements</em> &mdash; personalised, contextual, participatory playthings of all shapes and sizes that spread across media, software, commerce, sport and culture.</p>
+      <p>The opposite of <em>work</em> is not games. The opposite of work is play.</p>
+      <p>Amusements are the larger category. Games are simply a subset.</p>
+      <p>This reframe matters because it puts the right competitors on the table. A sports-fan daily engagement format is not competing with <em>EA Sports FC</em> but with the <em>Wordle / podcast clip / Duolingo / Polymarket / TikTok</em>. Habitual, participatory digital amusements. Understand what it is, who it&rsquo;s for and why they&rsquo;ll care and you open up the right opportunity space &mdash; where they play, how they might participate, what time well spent looks and feels like, who they&rsquo;re signalling to and what winning looks like.</p>
+    </article>
+
+    <article>
+      <h2>Attract Modes in the Age of Amusements</h2>
+      <p>In the arcade era, the attract mode existed for one reason: in a room bursting with alluring machines, capture the prospective participant&rsquo;s attention and persuade them to put their coin in this slot. That is the mindset for the age of amusements.</p>
+      <p>No &ldquo;marketing.&rdquo; No &ldquo;awareness.&rdquo; Only <strong>attract modes</strong> &mdash; <a href="https://hbr.org/podcast/2012/05/make-your-own-culturematic">culturematics</a> that attract attention, pull participation and organise <a href="https://seths.blog/2019/03/the-minimum-viable-audience-2/">minimum viable audience</a>. Triggers for experiences.</p>
+    </article>
+
+    <article>
+      <h2>Infinite Amusements and Unreasonable Hospitality</h2>
+      <p>In a world of infinite amusements, the difference between the instantly forgettable experience and the one you engage with, return to and invest in is how it feels and how it makes you feel.</p>
+      <p><a href="https://www.goodreads.com/book/show/60018618-unreasonable-hospitality">Will Guidara</a> calls it <em>unreasonable hospitality</em>: consistently give people more than they expected. <a href="https://playhaus.substack.com/p/in-and-out-the-eagle">The Eagle</a> &mdash; the gastropub that created the gastropub &mdash; got there with no tablecloths, no reservations, no tips, chalkboard menus and sincerity as design principles. It exceeded the implicit contract. It made the experience of paying for the meal better than the experience of getting one free elsewhere.</p>
+      <p>Unreasonable hospitality is the experiential dual of attract modes. Attract modes pull strangers in. Hospitality is what they find when they get there &mdash; and the reason they come back.</p>
+    </article>
+
+    <article>
+      <h2>Universes</h2>
+      <p>Participation thrives inside a <em>tribe</em> gathered inside a <em>world</em>.</p>
+      <p>The places amusements live, accumulate and compound are <strong>universes</strong> &mdash; persistent, inhabitable worlds that fans, partners and agents extend, remix and outlast.</p>
+      <p><a href="https://danco.substack.com/p/world-building-and-antifragility">Alex Danco</a>: <em>&ldquo;the more complex or valuable is whatever you&rsquo;re trying to accomplish, the more important it is for you to build a world around that idea, where other people can walk in, explore and hang out.&rdquo;</em></p>
+      <p>The world is the durable asset. The product, the canon, the next episode are footprints inside it.</p>
+      <p>This is also <strong>IP as API</strong>: your creative work becomes infrastructure that others build on &mdash; fans, partners, agentic artisans. Cindy Sherman&rsquo;s untitled photographs, the Sex Pistols&rsquo; visual identity, the Italian Brainrot multiverse &mdash; all IP-as-API.</p>
+      <p>Find your tribe. Build your world. Open the API. <a href="https://kk.org/thetechnium/1000-true-fans/">1,000 True Fans</a> doesn&rsquo;t need 1,000,001.</p>
+    </article>
+
+    <p class="section-label">Act III &mdash; From Platforms to Patronage</p>
+
+    <article>
+      <h2>People, Ideas, Machines (in that order)</h2>
+      <p>The temptation of the moment is to assume that because the machines have got cheaper, faster and more accessible, the machines are now the differentiator.</p>
+      <p>They are not. <a href="https://www.workingtheorys.com/p/taste-is-eating-silicon-valley">Taste</a>, judgement and shaping matter <em>more</em> &mdash; not less &mdash; as production gets cheaper. When everyone has the same machines, the differentiator is upstream: who you are, what you can imagine, how you decide what to make. You operate inside an <a href="https://en.wikipedia.org/wiki/OODA_loop">OODA loop</a> &mdash; cheaper machines do not change that, they just make the loops spin faster.</p>
+      <p>The role this stack creates is the <strong>Product Architect</strong>: part <a href="https://playhaus.substack.com/p/dont-fight-it-feel-it">remixer</a>, part <a href="https://seths.blog/2012/08/impresarios/">impresario</a>, part curator, part <a href="https://craigmod.com/journal/subcompact_publishing/">publisher</a>. Not a manager. Not an executor. A <a href="https://notes.seantaylor.work/speculation-is-imagination-with-action/">speculator</a> with <a href="https://playhaus.substack.com/p/itchy-knickers">vision</a> and <a href="https://notes.seantaylor.work/taste-test/">taste</a> who orchestrates a small band of co-conspirators and an exoskeleton of agents. <a href="https://notes.seantaylor.work/infinite-games/">An infinite player</a>.</p>
+      <p>Distribution follows the same stack. People (who it&rsquo;s for), then ideas (where they play, what they want), then machines (how we attract attention and pull participation).</p>
+      <p>Operating implications: small teams, strong taste, fast loops beat big teams, weak taste and long Gantt charts.</p>
+    </article>
+
+    <article>
+      <h2>Opportunities Before Efficiencies</h2>
+      <p><a href="https://kk.org/newrules/newrules-10.html">Kevin Kelly</a>: <em>&ldquo;Don&rsquo;t solve problems; pursue opportunities. There is more to be gained by producing more opportunities than by optimising existing ones.&rdquo;</em></p>
+      <p>The industrial model optimises efficiency. The post-industrial model produces opportunities. Each well-placed innovation becomes a <a href="https://notes.seantaylor.work/compunding-contexts/">platform for further innovations</a> &mdash; one trigger, dozens of offspring.</p>
+      <p>The operating posture is what David Chang calls <em>the long, hard, stupid way</em>. From <a href="https://playhaus.substack.com/archive">Punk Provocation 14</a>: <em>&ldquo;We don&rsquo;t optimise for efficiency; we do whatever it takes to communicate the intended experience best.&rdquo;</em></p>
+      <p>Curate <a href="https://notes.seantaylor.work/words/culturematic-chaos-containers/">chaos containers</a>:</p>
+      <blockquote>
+        <p>Less art, more craft.<br>
+        Less products, more probes.<br>
+        Less assembly lines, more jazz improv.<br>
+        Less cathedrals, more chaos containers.</p>
+      </blockquote>
+      <p>Build in layers. Work in loops &mdash; the shorter and faster the better. Don&rsquo;t launch on date. Launch on quality. Make work that ships great and gets better. Tinker, tune and tweak. Be curious, not complacent.</p>
+      <p>Looping is <em>how</em> you produce opportunities. Opportunities-before-efficiencies is <em>why</em>.</p>
+    </article>
+
+    <article>
+      <h2>Culture and Collateral</h2>
+      <p>Build amusements that create <a href="https://notes.seantaylor.work/culture-and-collateral/">culture and collateral</a> and <a href="https://notes.seantaylor.work/commodities/">avoid the commodity business entirely</a>.</p>
+    </article>
+
+    <article>
+      <h2>Punk Patronage</h2>
+      <p>As platform dependence weakens and new modes of commerce rise, the independent operator&rsquo;s problem is not just <em>how to make things</em>. It is <em>how to capture value directly, sincerely, and repeatedly, without defaulting to gatekeepers</em>.</p>
+      <p>The model is <strong>punk patronage</strong> &mdash; direct value creation &lt;-&gt; capture relationships between creator and consumer.</p>
+      <p>Direct creator-audience relationships. Mementos, memberships, subscriptions, status, utility. Value capture proportional to effort and meaning. Bypass, or reframe, the gatekeeper.</p>
+      <p>In participatory economies, patronage is broader than &ldquo;support the creator&rdquo;. It can mean mementos, memberships, subscriptions, status, access, influence or utility. Value capture proportional to effort, emotional investment and opportunity.</p>
+      <p>Money becomes meaningful when it expresses belief.</p>
+    </article>
+
+    <nav class="follow-section" aria-label="Follow along">
+      <p class="section-label">Follow Along</p>
+      <div class="follow">
+        <a href="https://notes.seantaylor.work">Notes</a>
+        <a href="https://playhaus.substack.com/archive">Substack</a>
+        <a href="https://www.linkedin.com/in/mrseantaylor/">LinkedIn</a>
+        <a href="https://x.com/kwangchow">X</a>
+        <a href="https://www.instagram.com/kwangchow/">Instagram</a>
+        <a href="https://github.com/kwangchow/">GitHub</a>
+      </div>
+    </nav>
+
+    <footer>
+      <p>Sean Taylor &middot; Made in Scotland 🏴 Based in Dubai &middot; <a href="https://seantaylor.work">seantaylor.work</a></p>
+      <p style="margin-top: 0.5rem;">Working notebook. These are seeds, not finished arguments. They will be tilled, replanted and pruned.</p>
+    </footer>
+  </main>
+</body>
+</html>
