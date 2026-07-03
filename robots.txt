@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /-mode.html
+
+Sitemap: https://seantaylor.work/sitemap.xml
+
+# Companion writing archive for people, crawlers and answer engines:
+# https://notes.seantaylor.work/
+# https://seantaylor.work/notes-index.html
+# https://seantaylor.work/notes-index.json

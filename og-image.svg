@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sean Taylor</title>
+  <desc id="desc">Games executive producer, fractional CPO, product architect and author.</desc>
+  <rect width="1200" height="630" fill="#fafafa"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" fill="#1a1a1a"/>
+  <text x="120" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="82" font-weight="760" fill="#fafafa">Sean Taylor</text>
+  <text x="124" y="292" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="34" font-weight="500" fill="#d8d8d8">Games exec producer · Fractional CPO · Product architect</text>
+  <text x="124" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="31" font-weight="500" fill="#fafafa">BAFTA-winning author and 16x ROI ecosystem builder</text>
+  <text x="124" y="444" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="430" fill="#d8d8d8">30 years making games, playful media and interactive amusements</text>
+  <text x="124" y="508" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#fafafa">seantaylor.work</text>
+</svg>

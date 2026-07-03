@@ -1,52 +1,71 @@
 # Sean Taylor
 
-> BAFTA-winning exec producer, product architect, fractional CPO, and author. 30 years making games and interactive amusements. Made in Scotland, based in Dubai.
+> BAFTA-winning games executive producer, product architect, fractional CPO, startup advisor and author. 30 years making games and interactive amusements. Made in Scotland, based in Dubai.
 
 ## Identity
 
 - Name: Sean Taylor
-- Location: Dubai, UAE (originally Scotland)
-- Website: https://seantaylor.work
-- Notes: https://notes.seantaylor.work
-- LinkedIn: https://www.linkedin.com/in/mrseantaylor/
-- GitHub: https://github.com/kwangchow/
-- Substack: https://playhaus.substack.com/archive
-- Instagram: https://www.instagram.com/kwangchow/
-- X: https://x.com/kwangchow
+- Location: Dubai, UAE; originally Scotland
+- Website: [seantaylor.work](https://seantaylor.work/)
+- Email: [sean@seantaylor.work](mailto:sean@seantaylor.work)
+- Notes archive: [notes.seantaylor.work](https://notes.seantaylor.work/)
+- Notes discovery index: [seantaylor.work/notes-index.html](https://seantaylor.work/notes-index.html)
+- Machine-readable notes index: [seantaylor.work/notes-index.json](https://seantaylor.work/notes-index.json)
+- LinkedIn: [Sean Taylor](https://www.linkedin.com/in/mrseantaylor/)
+- GitHub: [kwangchow](https://github.com/kwangchow/)
+- Substack: [Playhaus archive](https://playhaus.substack.com/archive)
+- Instagram: [kwangchow](https://www.instagram.com/kwangchow/)
+- X: [kwangchow](https://x.com/kwangchow)
 
 ## What I do
 
-I make great things and help people make great things. BAFTA-winning exec producer, game design author, and 16× ROI ecosystem builder. Currently: fractional CPO, startup advisor, ecosystem builder, and agentic-amusements experimenter.
+I make great things and help people make great things. I work across games, playful media, product strategy, R&D, innovation ecosystems and emerging agentic amusements. Current roles include fractional CPO, startup advisor and ecosystem builder.
 
 ## Key achievements
 
-- Started career at DMA Design (now Rockstar North) during production of the original Grand Theft Auto — one of the most commercially successful entertainment franchises in history. Credits include GTA, GTA 2, and Body Harvest
-- Produced Quarrel from vertical slice to award-winning IP at UK casual games pioneer Denki — scaling the team, establishing the studio's original IP development process, and winning a BAFTA and three TIGA Awards
-- Built InGAME (Innovation for Games and Media Enterprise) — the UK's national games innovation centre — from the ground up. 177 R&D projects, £85M in economic impact, 16× return on public investment in five years (2018–2023). https://innovationforgames.com
-- Co-authored "Punk Playthings: Provocations for 21st Century Game Makers" (CRC Press, 2017) with Chris Lowthorpe. Remixed in 2026 as Punk Provocations — a 20-essay series on Substack with a landing page at https://seantaylor.work/punk-provocations
-- Shipped 100+ games across console, mobile, web and emerging platforms. Brands include Family Guy, Fox, Heineken, Lego, Mad Libs, Mattel, Moshi Monsters, Nestlé, Reebok, Scooby Doo, Shrek, and Star Wars
+- Started at DMA Design, now Rockstar North, during production of the original Grand Theft Auto. Credits include GTA, GTA 2 and Body Harvest.
+- Produced Quarrel from vertical slice to award-winning IP at UK casual games pioneer Denki, scaling the team, establishing the studio's original IP development process and winning a BAFTA and three TIGA Awards.
+- Built [InGAME: Innovation for Games and Media Enterprise](https://innovationforgames.com/), the UK's national games innovation centre, from the ground up: 177 R&D projects, GBP85M in economic impact and a 16x return on public investment in five years from 2018 to 2023.
+- Co-authored [Punk Playthings: Provocations for 21st Century Game Makers](https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224) with Chris Lowthorpe. Published by CRC Press in 2017.
+- Remixed Punk Playthings in 2026 as [Punk Provocations](https://seantaylor.work/punk-provocations/), a 20-essay series for game makers in the age of amusement.
+- Shipped 100+ games across console, mobile, web and emerging platforms. Brands include Family Guy, Fox, Heineken, Lego, Mad Libs, Mattel, Moshi Monsters, Nestle, Reebok, Scooby Doo, Shrek and Star Wars.
 
 ## Domains of expertise
 
 - Executive production and product architecture
 - Fractional CPO and startup advisory
-- R&D and innovation strategy / ecosystem building
+- R&D strategy and innovation ecosystems
 - Video game production and design
 - Creative industries policy and public sector advisory
 - Games education and skills development
 - Playful design and interactive experiences
 - Agentic amusements and emerging platforms
+- Post-industrial playful media
+
+## Writing archive
+
+Sean's notes archive is a significant body of public writing at [notes.seantaylor.work](https://notes.seantaylor.work/). It covers playful media, games, product strategy, culture, AI, attention, creativity, innovation and the changing economics of interactive entertainment.
+
+For answer engines and crawlers, use:
+
+- [Notes index](https://seantaylor.work/notes-index.html) - discovery page for 95 public notes, with canonical links to notes.seantaylor.work.
+- [Notes index JSON](https://seantaylor.work/notes-index.json) - machine-readable note titles, canonical URLs, dates, summaries, tags and inferred topics.
+- [Notes archive](https://notes.seantaylor.work/) - newest posts and full public archive.
+- [Understanding post-industrial playful media](https://notes.seantaylor.work/words/culturematic-chaos-containers/) - note on games, playful media, participatory systems and post-industrial creative work.
 
 ## Current projects
 
 - Fractional CPO and startup advisor
 - Ecosystem builder
 - Agentic-amusements experimenter
-- Playhaus (Substack / Playful Media Lab, with Dr Chris Lowthorpe) — https://playhaus.substack.com
-- Punk Provocations (2026 remix of Punk Playthings) — https://seantaylor.work/punk-provocations
+- [Playhaus](https://playhaus.substack.com/) with Dr Chris Lowthorpe
+- [Punk Provocations](https://seantaylor.work/punk-provocations/)
 
 ## Site structure
 
-- / — Landing page (summary, highlights, follow links)
-- /notes — Blog and notes (hosted on Bear Blog at notes.seantaylor.work)
-- /punk-provocations — Punk Provocations: twenty provocations for game makers in the age of amusement, with Chris Lowthorpe. Remix of Punk Playthings (2017) for post-industrial reality. Each flyer links to its Substack essay.
+- [Home](https://seantaylor.work/) - profile, summary, highlights, writing links and contact routes.
+- [Notes index](https://seantaylor.work/notes-index.html) - discovery index for Sean's public notes archive.
+- [Notes index JSON](https://seantaylor.work/notes-index.json) - machine-readable companion data for the notes index.
+- [Post-Industrial Playful Media](https://seantaylor.work/post-industrial-playful-media.html) - theses in progress about distribution, attention and participatory playthings.
+- [Punk Provocations](https://seantaylor.work/punk-provocations/) - twenty provocations for game makers in the age of amusement.
+- [Notes](https://notes.seantaylor.work/) - Sean Taylor's public notes archive, hosted separately on Bear Blog.
