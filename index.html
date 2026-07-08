@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sean Taylor | Games Exec Producer, Fractional CPO &amp; Product Architect</title>
-  <meta name="description" content="BAFTA-winning games exec producer, fractional CPO and product architect with 30 years in games, playful media, R&amp;D and innovation ecosystems.">
+  <meta name="description" content="30 years making games and playful things — Grand Theft Auto, a BAFTA, Punk Playthings. Now a fractional CPO, startup advisor and agentic-amusements experimenter.">
   <meta name="author" content="Sean Taylor">
   <link rel="canonical" href="https://seantaylor.work/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -14,7 +14,7 @@
   <!-- Open Graph / social share -->
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Sean Taylor | Games Exec Producer, Fractional CPO &amp; Product Architect">
-  <meta property="og:description" content="BAFTA-winning games exec producer, author and 16× ROI ecosystem builder. Fractional CPO, startup advisor and agentic-amusements experimenter.">
+  <meta property="og:description" content="I've spent 30 years making games and playful things — I started on Grand Theft Auto, won a BAFTA along the way and wrote a book telling game makers to be more punk.">
   <meta property="og:url" content="https://seantaylor.work/">
   <meta property="og:image" content="https://seantaylor.work/og-image.svg">
   <meta property="og:image:width" content="1200">
@@ -23,7 +23,7 @@
   <meta property="og:locale" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sean Taylor | Games Exec Producer, Fractional CPO &amp; Product Architect">
-  <meta name="twitter:description" content="BAFTA-winning games exec producer, author and 16× ROI ecosystem builder.">
+  <meta name="twitter:description" content="30 years making games and playful things — GTA, a BAFTA, and a book telling game makers to be more punk.">
   <meta name="twitter:image" content="https://seantaylor.work/og-image.svg">
 
   <!-- JSON-LD structured data for LLM + SEO -->
@@ -220,37 +220,31 @@
       font-size: 1.8rem;
       font-weight: 700;
       letter-spacing: -0.02em;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.75rem;
     }
 
-    .subtitle {
-      color: var(--text-secondary);
-      font-size: 1.05rem;
-      margin-bottom: 0.25rem;
-    }
-
-    /* Summary bullets (header) */
-    .summary {
-      margin-top: 0.6rem;
-      padding-left: 1.2rem;
-      list-style: disc;
-      max-width: min(52ch, 100%);
-    }
-
-    .summary li {
-      padding: 0;
-      margin: 0.3rem 0;
-      border: none;
-      font-size: 1.02rem;   /* slightly larger than highlights (0.95rem) */
-      line-height: 1.38;    /* tighter wrap */
-    }
-
-    /* Highlights */
+    /* Sections */
     section { margin-bottom: 2.5rem; }
 
+    section p, header p {
+      max-width: min(56ch, 100%);
+    }
+
+    section p + p { margin-top: 0.75rem; }
+
+    p a, .highlights a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    p a:hover, .highlights a:hover { color: var(--link-hover); }
+
+    /* Then list */
     .highlights {
       list-style: none;
       padding: 0;
+      margin-top: 0.75rem;
     }
 
     .highlights li {
@@ -261,14 +255,6 @@
     }
 
     .highlights li:last-child { border-bottom: none; }
-
-    .highlights a {
-      color: var(--link);
-      text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-
-    .highlights a:hover { color: var(--link-hover); }
 
     /* Links / Follow */
     .follow-section { margin-bottom: 2.5rem; }
@@ -288,18 +274,6 @@
 
     .follow a:hover { color: var(--text); }
 
-    .writing {
-      color: var(--text-secondary);
-      font-size: 0.95rem;
-      line-height: 1.55;
-    }
-
-    .writing a {
-      color: var(--link);
-      text-decoration: underline;
-      text-underline-offset: 2px;
-    }
-
     /* Footer */
     footer {
       margin-top: 3rem;
@@ -314,28 +288,32 @@
 <body>
   <main>
     <header>
-      <h1>Sean Taylor</h1>
-      <ul class="summary" aria-label="Summary">
-        <li>30 years making games and interactive amusements.</li>
-        <li>BAFTA-winning exec producer. Game design author.<br>16× ROI ecosystem builder.</li>
-        <li>Currently: fractional CPO, startup advisor, ecosystem builder, agentic-amusements experimenter.</li>
-      </ul>
+      <h1>Hello, I'm Sean Taylor</h1>
+      <p>I've spent 30 years making games and playful things — I started on <strong>Grand Theft Auto</strong>, won a BAFTA along the way and wrote a book telling game makers to be more punk.</p>
     </header>
 
-    <section aria-label="Highlights">
-      <h2 class="section-label">Highlights</h2>
+    <section aria-label="Now">
+      <h2 class="section-label">Now</h2>
+      <p>I'm a fractional CPO, startup advisor and agentic-amusements experimenter.</p>
+      <p>I also publish notes on playful media, games, product strategy, AI, culture, attention and innovation at <a href="https://notes.seantaylor.work" rel="me">notes.seantaylor.work</a>.</p>
+      <p>If you're building something playful and want a product brain on it, <a href="mailto:sean@seantaylor.work">email me</a>.</p>
+    </section>
+
+    <section aria-label="Then">
+      <h2 class="section-label">Then</h2>
+      <p>In the past, I've:</p>
       <ul class="highlights">
-        <li>Started my career at DMA Design (now Rockstar North) during the creation of <strong>Grand Theft Auto</strong> - one of the most commercially successful entertainment franchises in history. Credits include GTA, GTA 2 and Body Harvest.</li>
-        <li>Produced <strong>Quarrel</strong> from vertical slice to award-winning IP at UK casual games pioneer Denki - scaling the team, establishing the studio's original IP development process and winning a BAFTA and three TIGA Awards.</li>
-        <li>Built <a href="https://innovationforgames.com"><strong>InGAME: Innovation for Games and Media Enterprise</strong></a> the UK's national games innovation centre from the ground up - 177 R&D projects, £85M in economic impact, 16x return on public investment in five years (2018–2023).</li>
-        <li>Wrote <a href="https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224"><strong>Punk Playthings: Provocations for 21st Century Game Makers</strong></a> (CRC Press, 2017). Remixed as <a href="https://seantaylor.work/punk-provocations"><strong>Punk Provocations</strong></a> in 2026.</li>
-        <li>Shipped 100+ games across console, mobile, web and emerging platforms. Brands include <strong>Family Guy, Fox, Heineken, Lego, Mad Libs, Mattel, Moshi Monsters, Nestlé, Reebok, Scooby Doo, Shrek and Star Wars.</strong></li>
+        <li>Dropped out of college to join DMA Design during the making of the original <strong>Grand Theft Auto</strong> (credits: GTA, GTA 2, Body Harvest).</li>
+        <li>Produced <strong>Quarrel</strong> at Denki — it won a BAFTA and three TIGA Awards.</li>
+        <li>Built <a href="https://innovationforgames.com"><strong>InGAME</strong></a>, the UK's national games innovation centre, from scratch — 177 R&amp;D projects, £85M of impact, 16× return on public money.</li>
+        <li>Wrote <a href="https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224"><strong>Punk Playthings: Provocations for 21st Century Game Makers</strong></a> in 2017; remixed it as <a href="https://seantaylor.work/punk-provocations"><strong>Punk Provocations</strong></a> in 2026.</li>
+        <li>Shipped 100+ games and interactive experiences for everyone from <strong>DreamWorks, Lego and Star Wars</strong> to <strong>Fox, Heineken and Reebok</strong>.</li>
       </ul>
     </section>
 
-    <section aria-label="Writing archive">
-      <h2 class="section-label">Writing</h2>
-      <p class="writing">I publish notes on playful media, games, product strategy, AI, culture, attention and innovation at <a href="https://notes.seantaylor.work" rel="me">notes.seantaylor.work</a>.</p>
+    <section aria-label="Next">
+      <h2 class="section-label">Next</h2>
+      <p>Amusements in the age of attention. That's where my head is — more soon.</p>
     </section>
 
     <nav class="follow-section" aria-label="Follow along">
