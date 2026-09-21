@@ -213,6 +213,12 @@
       padding: 4rem 1.5rem 3rem;
     }
 
+    .site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.4rem; margin-bottom: 2.5rem; font-size: .875rem; }
+    .site-nav a { padding: .25rem 0; color: var(--text-secondary); text-decoration: none; }
+    .site-nav a[aria-current="page"] { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
+    .site-nav a:hover { color: var(--text); }
+    .site-nav a:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; }
+
     /* Header */
     header { margin-bottom: 2.5rem; }
 
@@ -287,43 +293,47 @@
 </head>
 <body>
   <main>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/experience.html">Experience</a>
+      <a href="https://notes.seantaylor.work/">Notebook</a>
+      <a href="mailto:sean@seantaylor.work">Email</a>
+    </nav>
     <header>
       <h1>Hello, I'm Sean Taylor</h1>
-      <p>I've spent 30 years making games and playful things - I started on <strong>Grand Theft Auto</strong>, won a BAFTA along the way and wrote a book telling game makers to be more punk.</p>
+      <p>I make games and playful things, and help teams make them well. Over 30 years, I've worked on the original <strong>Grand Theft Auto</strong>, produced the BAFTA-winning <strong>Quarrel</strong>, built <strong>InGAME</strong>, a government-funded games research and innovation centre, and co-written <strong>Punk Playthings</strong>, a book telling game makers to be more punk.</p>
     </header>
 
     <section aria-label="Now">
       <h2 class="section-label">Now</h2>
-      <p>I'm a fractional CPO, exec producer, startup advisor and agentic-amusements experimenter.</p>
-      <p>I also publish notes on playful media, games, product strategy, AI, culture, attention and innovation at <a href="https://notes.seantaylor.work" rel="me">notes.seantaylor.work</a>.</p>
+      <p>I work with founders and studios on product direction, prototyping, production and the route to market - turning creative ambition into something a team can build, ship and scale.</p>
+      <p>I'm currently product lead on an unannounced game, alongside fractional product and advisory work. I'm interested in both fractional engagements and permanent roles as a Head of Product or Executive Producer.</p>
       <p>If you're building something playful and want a product brain on it, <a href="mailto:sean@seantaylor.work">email me</a>.</p>
     </section>
 
-    <section aria-label="Then">
-      <h2 class="section-label">Then</h2>
-      <p>In the past, I've:</p>
+    <section aria-label="Selected work" id="selected-work">
+      <h2 class="section-label">Selected work</h2>
       <ul class="highlights">
-        <li>Dropped out of college to join DMA Design during the making of the original <strong>Grand Theft Auto</strong> (credits: GTA, GTA 2, Body Harvest).</li>
-        <li>Produced <strong>Quarrel</strong> at Denki — it won a BAFTA and three TIGA Awards.</li>
-        <li>Built <a href="https://innovationforgames.com"><strong>InGAME</strong></a>, the UK's national games innovation centre, from scratch - 177 R&amp;D projects, £85M of impact, 16× return on public money.</li>
-        <li>Wrote <a href="https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224"><strong>Punk Playthings: Provocations for 21st Century Game Makers</strong></a> in 2017; remixed it as <a href="https://seantaylor.work/punk-provocations"><strong>Punk Provocations</strong></a> in 2026.</li>
-        <li>Shipped 100+ games and interactive experiences for everyone from <strong>DreamWorks, Lego and Star Wars</strong> to <strong>Fox, Heineken and Reebok</strong>.</li>
+        <li><strong>Quarrel</strong>. Produced Denki's original word-strategy game from vertical slice through release on iOS and Xbox 360. Winner of BAFTA Scotland's Best Game award.</li>
+        <li><a href="https://innovationforgames.com"><strong>InGAME</strong></a>. Established and led a £5.3m publicly funded games R&amp;D centre, building an industry-academia operating model and delivering 177 industry research collaborations and 16x return on public investment.</li>
+        <li><strong>Battlepass Labs</strong>. Product strategy, customer discovery and hands-on prototyping for a platform connecting brands with players inside live games.</li>
       </ul>
     </section>
 
-    <section aria-label="Next">
-      <h2 class="section-label">Next</h2>
-      <p>Amusements in the age of attention. That's where my head is - more soon.</p>
+    <section aria-label="Writing and what's next">
+      <h2 class="section-label">Writing &amp; what's next</h2>
+      <p>I write about making games, building audiences and <a href="https://notes.seantaylor.work/amusements-in-the-age-of-attention/">amusements in the age of attention</a>. Read my <a href="https://notes.seantaylor.work/">daily notes</a> or check out <a href="https://seantaylor.work/punk-provocations/">Punk Provocations</a>, the 2026 remix of <a href="https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224">Punk Playthings: Provocations for 21st Century Game Makers</a>, the 2017 book I co-wrote with Chris Lowthorpe.</p>
     </section>
 
     <nav class="follow-section" aria-label="Follow along">
       <h2 class="section-label">Follow Along or <a href="mailto:sean@seantaylor.work">Reach Out</a></h2>
       <div class="follow">
-        <a href="https://notes.seantaylor.work" rel="me">Writing</a>
+        <a href="https://notes.seantaylor.work" rel="me">Notebook</a>
         <a href="https://www.linkedin.com/in/mrseantaylor/" rel="me">LinkedIn</a>
         <a href="https://github.com/kwangchow/" rel="me">GitHub</a>
         <a href="https://mrseantaylor.substack.com" rel="me">Substack</a>
         <a href="https://x.com/kwangchow" rel="me">X</a>
+        <a href="https://instagram.com/kwangchow" rel="me">Instagram</a>
       </div>
     </nav>
 
