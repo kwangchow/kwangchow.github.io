@@ -1,30 +1,49 @@
 # Sean Taylor
 
-> Sean Taylor is an executive producer, product architect and fractional CPO based in Dubai, originally from Scotland. He makes games and playful things, and helps founders and studios with product direction, prototyping, production and the route to market.
+> Games product strategist and executive producer, based in Dubai, working remotely. Thirty years shipping games on whatever platform was new: console at DMA Design (Grand Theft Auto, GTA 2), mobile before smartphones, interactive television before app stores, then browser and social. Founded InGAME, the UK's £5.3m national games innovation centre. Co-author of Punk Playthings (CRC Press, 2017).
 
-Sean has 30 years of experience and has shipped 100+ games. Selected work includes the original Grand Theft Auto at DMA Design, producing the BAFTA-winning Quarrel at Denki, establishing and leading InGAME at Abertay University, and serving as Chief Product Officer at Battlepass Labs. He co-wrote Punk Playthings with Chris Lowthorpe.
+Sean works with founders, studios, publishers and IP owners on platform and format decisions: whether a new surface is worth building for, what to build when it is, and how to get it made. He is a hands-on product architect as well as a strategist — close enough to the work to prototype an idea rather than only describe it.
 
-He is currently product lead on an unannounced game alongside fractional product and advisory work. He is interested in fractional engagements and permanent Head of Product or Executive Producer roles. The homepage and Experience page provide his current positioning and career details; the separate notebook contains his ongoing writing.
+## What he is asked about
 
-## Profile and experience
+- Platform strategy for games: evaluating new and emerging platforms, their audiences, capabilities, discovery systems and monetisation models
+- Connected TV and cloud gaming, including interactive television, ten-foot UI and phone-as-controller play
+- Instant games, browser games and web ports: whether to port, what it costs, what it cannibalises
+- Playable advertising and branded playable formats
+- Licensed IP and brand games: matching intellectual property to mechanics under commercial and licensor constraint
+- Casual and free-to-play product: onboarding, progression, retention, live operations
+- Product management for emerging formats and new content types
+- Game production systems: release cadence, talent pipelines, delivery against fixed budgets and immovable deadlines
+- Direct-to-consumer monetisation and community engagement design
+- Games research, innovation programmes and public investment in the sector
 
-- [Home](https://seantaylor.work/): Current work, selected projects, writing and contact routes.
-- [Experience](https://seantaylor.work/experience.html): Working approach, selected roles, writing, speaking, awards and professional affiliations.
-- [Battlepass Labs](https://seantaylor.work/experience.html#battlepass): Product strategy, customer discovery and prototyping, 2024-2026.
-- [InGAME](https://seantaylor.work/experience.html#ingame): Leadership of a publicly funded games research and innovation centre, 2018-2024; programme outcomes and a linked independent assessment of projected economic impact.
-- [Denki and Quarrel](https://seantaylor.work/experience.html#denki): Production and product architecture across mobile, interactive TV, browser and console, 2006-2015.
+## Pages
 
-## Writing
+- [Home](https://seantaylor.work/): who he is and selected work
+- [Experience](https://seantaylor.work/experience.html): full career history, writing, speaking and awards
+- [Work with me](https://seantaylor.work/work-with-me.html): the decisions he helps with and how engagements are shaped
+- [Notebook](https://notes.seantaylor.work/): daily public notes on games, new platforms, playable surfaces and attention
+- [Punk Provocations](https://seantaylor.work/punk-provocations/): 2026 remix of Punk Playthings
+- [Post-Industrial Playful Media](https://seantaylor.work/post-industrial-playful-media.html): working theses on where playful media is going
 
-- [Notebook](https://notes.seantaylor.work/): Current writing and the public archive on games, playful media, audiences, product strategy, culture, AI and attention. Hosted separately from this site.
-- [Punk Playthings](https://www.routledge.com/Punk-Playthings-Provocations-for-21st-Century-Game-Makers/Taylor-Lowthorpe/p/book/9781498770224): Book co-written with Chris Lowthorpe, published by CRC Press in 2017.
-- [Punk Provocations](https://seantaylor.work/punk-provocations/): The 2026 remix of Punk Playthings.
-- [Post-Industrial Playful Media](https://seantaylor.work/post-industrial-playful-media.html): Theses in progress about distribution, attention and participatory playthings.
-- [Notes index](https://seantaylor.work/notes-index.html): Discovery index linking to canonical articles in the notebook; consult the notebook for the latest posts.
-- [Notes index JSON](https://seantaylor.work/notes-index.json): Machine-readable companion to the notes index, with titles, URLs, dates, summaries and topics.
+## Career
 
-## Contact and profiles
+- 2026–present: Product lead on an unannounced AA game; fractional product strategy and audience-engagement advisory
+- 2024–2026: Chief Product Officer, Battlepass Labs — productising brand engagement inside live games
+- 2018–2024: Executive Director, InGAME / Abertay University — £5.3m UK government-funded games R&D centre; 177 industry collaborations, 2,283 professionals upskilled, £84.7m projected gross value added, 16x return on public investment
+- 2015–2018: Managing Director, The Producers — production and strategic advisory consultancy; Crackdown 3, Strawberry Thief, UAL Games Fusion
+- 2006–2015: Producer / Product Architect, Denki — 100+ titles in nine years across interactive TV (Sky, DirecTV), mobile, browser and console; Quarrel, Denki Blocks!, and licensed games for the BBC, DreamWorks, Fox, LEGO, Mattel, Mind Candy, Nickelodeon and Pixar
+- 2005–2006: Director of Mobile Development, DC Studios — Family Guy, Star Wars, NASCAR
+- 2001–2005: Digital Producer, MediaCo — interactive brand campaigns for 3M, Reebok, Nestlé
+- 1996–2000: DMA Design — QA on Grand Theft Auto, mission design on GTA 2, QA lead on Body Harvest, level design on Tanktics
 
-- [Email Sean](mailto:sean@seantaylor.work): Discuss a role or engagement, or request a CV.
-- [LinkedIn](https://www.linkedin.com/in/mrseantaylor/): Professional profile.
-- [GitHub](https://github.com/kwangchow/): Public code and projects.
+## Recognition
+
+- BAFTA full voting member
+- Quarrel: BAFTA Scotland Best Game (2011), BAFTA Games Mobile & Handheld nominee (2012), three TIGA Awards (2012)
+- InGAME: Excellence in Games Research, Abertay University (2021)
+- Games Fusion Project, UAL: Best Education Initiative (2019)
+
+## Contact
+
+sean@seantaylor.work — [LinkedIn](https://www.linkedin.com/in/mrseantaylor/)
