@@ -3,7 +3,7 @@
   <!-- Root site pages served from seantaylor.work. The canonical notes archive lives separately at https://notes.seantaylor.work/. -->
   <url>
     <loc>https://seantaylor.work/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://seantaylor.work/post-industrial-playful-media.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
