@@ -58,9 +58,12 @@
     .theses > li:last-child { margin-bottom: 0; }
     .theses > li::marker { font-weight: 600; color: var(--text-secondary); }
     .theses h3 { position: relative; font-size: 1.15rem; line-height: 1.35; letter-spacing: -.01em; margin-bottom: .65rem; }
-    .thesis-link { position: absolute; width: .75em; height: .75em; margin: .3em 0 0 .3em; color: var(--text); text-decoration: none; }
+    .thesis-link { position: absolute; width: .75em; height: .75em; margin: .3em 0 0 .3em; padding: 0; border: 0; background: none; color: var(--text); font: inherit; cursor: pointer; }
     .thesis-link:hover { color: #000; }
+    .thesis-link:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; border-radius: 1px; }
     .thesis-link svg { display: block; width: 100%; height: 100%; }
+    .copy-status { position: fixed; bottom: 1.25rem; left: 50%; transform: translateX(-50%); z-index: 1; max-width: calc(100% - 2rem); margin: 0; padding: .45rem .8rem; border-radius: 3px; background: var(--text); color: var(--bg); font-size: .8rem; text-align: center; pointer-events: none; }
+    .copy-status:empty { visibility: hidden; }
     .theses p { font-size: .95rem; }
     .play-framework { margin: .8rem 0; padding-left: 1.15rem; font-size: .95rem; }
     .play-framework li + li { margin-top: .5rem; }
@@ -71,7 +74,7 @@
     }
     @media print {
       .act-nav { display: none; }
-      .thesis-link { display: none; }
+      .thesis-link, .copy-status { display: none; }
       .theses > li { break-inside: avoid; }
       .act h2 { break-after: avoid; }
     }
@@ -105,15 +108,15 @@
         <h2 id="act-1">Act I: The Turn</h2>
         <ol class="theses" start="1">
           <li id="thesis-1">
-            <h3>The industrial era of games is over.<a class="thesis-link" href="#thesis-1" aria-label="Link to thesis 1" title="Link to thesis 1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>The industrial era of games is over.<button class="thesis-link" type="button" aria-label="Copy link to thesis 1" title="Copy link to thesis 1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p><a href="https://www.owenmahoney.ai/owen-mahoney-blog/how-empires-die">Empires are dying</a> under the weight of <a href="https://gamedevreports.substack.com/p/hushcrasher-games-budgets-and-did">fixed costs and low returns</a>. Breakouts are rarer while a handful of <a href="https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026">evergreen titles hoover up attention and revenue</a>. Headcounts shrink, studios close, development deprofessionalises and distribution is everywhere yet nowhere. What remains is not a smaller, wiser version of the industrial model - it's a post-industrial frontier where big teams and antiquated pipelines give way to cheaper tools, new routes to market and a sharper fight for attention.</p>
           </li>
           <li id="thesis-2">
-            <h3>Distribution is infinite. Attention is scarce.<a class="thesis-link" href="#thesis-2" aria-label="Link to thesis 2" title="Link to thesis 2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Distribution is infinite. Attention is scarce.<button class="thesis-link" type="button" aria-label="Copy link to thesis 2" title="Copy link to thesis 2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>The industrial problem was getting onto the shelf; the post-industrial problem is getting into someone's day. Available hours are fixed, but competition is infinite. Every strategy built on distribution scarcity is broken - as is any assumption that ignores the new kingmakers: algorithms, creators, curators and communities.</p>
           </li>
           <li id="thesis-3">
-            <h3>The middle of the road is dead on arrival<a class="thesis-link" href="#thesis-3" aria-label="Link to thesis 3" title="Link to thesis 3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>The middle of the road is dead on arrival<button class="thesis-link" type="button" aria-label="Copy link to thesis 3" title="Copy link to thesis 3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Attention and capital pull to the extreme edges:</p>
             <ul class="play-framework">
               <li>Blockbuster: High-production spectacle. (Universal reach &amp; sensory awe)</li>
@@ -126,11 +129,11 @@
             <p>The middle of the road is too expensive for word-of-mouth and too square to inspire conviction. There is no market for 5/10.</p>
           </li>
           <li id="thesis-4">
-            <h3>Everything is a games platform now.<a class="thesis-link" href="#thesis-4" aria-label="Link to thesis 4" title="Link to thesis 4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Everything is a games platform now.<button class="thesis-link" type="button" aria-label="Copy link to thesis 4" title="Copy link to thesis 4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p><em>Wordle</em> habits, <em>Duolingo</em> streaks, Strava heatmaps, prediction markets, dopamine simulators, parasocial playthings. Retention-seeking apps have stripped game mechanics for parts. While non-game derivatives win quick attention battles, they struggle to replicate intensity, unfakeable identity and enduring affinity. That is the game maker's remaining high ground.</p>
           </li>
           <li id="thesis-5">
-            <h3>Attention is your banker. Platforms are your landlords.<a class="thesis-link" href="#thesis-5" aria-label="Link to thesis 5" title="Link to thesis 5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Attention is your banker. Platforms are your landlords.<button class="thesis-link" type="button" aria-label="Copy link to thesis 5" title="Copy link to thesis 5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Games are often not the business. They are the engagement engine making someone else's ecosystem more valuable. The vital question isn't "can this game make money?" but "whose rails does it run on, and what toll do they exact?" Selling a product, feeding a platform and creating collateral require distinct strategies, yet studios routinely confuse them. Owned communities, direct payments and portable identity are the only real defences against landlord economics.</p>
           </li>
         </ol>
@@ -140,23 +143,23 @@
         <h2 id="act-2">Act II: The Shape</h2>
         <ol class="theses" start="6">
           <li id="thesis-6">
-            <h3>Games are dissolving into amusements.<a class="thesis-link" href="#thesis-6" aria-label="Link to thesis 6" title="Link to thesis 6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Games are dissolving into amusements.<button class="thesis-link" type="button" aria-label="Copy link to thesis 6" title="Copy link to thesis 6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>The opposite of work is play, not games. Amusements are the broader category: personalised, contextual, participatory playthings across media, software, commerce, sport and culture. With <a href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/">prompt and play</a>, experiences adapt instantly to individual intent. A daily sports-play format isn't competing with EA Sports FC - it's competing with Strava, TikTok and Polymarket on behavioural efficiency: instant reward, clear progress and social status signalling.</p>
           </li>
           <li id="thesis-7">
-            <h3>Slop is what high-status incumbents call low-status leisure.<a class="thesis-link" href="#thesis-7" aria-label="Link to thesis 7" title="Link to thesis 7"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Slop is what high-status incumbents call low-status leisure.<button class="thesis-link" type="button" aria-label="Copy link to thesis 7" title="Copy link to thesis 7"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>From the inside, it's texture, companionship, belonging, drama, play and a place to be. Industry incumbents waste time arguing about their own taste while audiences vote decisively with their time and money.</p>
           </li>
           <li id="thesis-8">
-            <h3>Participation is the product.<a class="thesis-link" href="#thesis-8" aria-label="Link to thesis 8" title="Link to thesis 8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Participation is the product.<button class="thesis-link" type="button" aria-label="Copy link to thesis 8" title="Copy link to thesis 8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>The atomic unit of value has shifted from the packaged product to active participation. Play is just one vector; watching, clipping, predicting, collecting, remixing, backing and belonging matter just as much. The core design challenge is no longer just getting people to play but giving the lurker, the regular and the obsessive distinct ways to participate.</p>
           </li>
           <li id="thesis-9">
-            <h3>Every plaything is an attention engine that leaks.<a class="thesis-link" href="#thesis-9" aria-label="Link to thesis 9" title="Link to thesis 9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Every plaything is an attention engine that leaks.<button class="thesis-link" type="button" aria-label="Copy link to thesis 9" title="Copy link to thesis 9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Attention draws people in; engagement gives them reason to stay. A functioning engine converts attention into participation, participation into affinity and affinity into patronage. With the top 20% of players driving ~60% of playtime and 73% of spend (Bain, 2026), most games don't have a content problem - they leak attention before it hardens into affinity.</p>
           </li>
           <li id="thesis-10">
-            <h3>Feel is the floor. Status is the moat.<a class="thesis-link" href="#thesis-10" aria-label="Link to thesis 10" title="Link to thesis 10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Feel is the floor. Status is the moat.<button class="thesis-link" type="button" aria-label="Copy link to thesis 10" title="Copy link to thesis 10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>How it feels - and how it makes people feel - decides whether anyone stays past first contact. Anticipation decides whether they return. Status decides whether leaving carries a cost.</p>
             <ul class="play-framework">
               <li><strong>The Loop (Play)</strong>: Fundamental feel that makes it remarkable and rewarding from the first minute.</li>
@@ -166,7 +169,7 @@
             <p>People don't just play. They signal.</p>
           </li>
           <li id="thesis-11">
-            <h3>Your IP is now an API.<a class="thesis-link" href="#thesis-11" aria-label="Link to thesis 11" title="Link to thesis 11"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Your IP is now an API.<button class="thesis-link" type="button" aria-label="Copy link to thesis 11" title="Copy link to thesis 11"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>The world is the durable asset; the experience is a pop-up inside it. In an age of <a href="https://www.polygon.com/halo-web-browser-ai-game-mods/">game decompilation</a>, everything is a remix: source code and assets are raw material for fans. Worldbuilding isn't just lore - it's the aesthetics, status signals and social codes that turn fandoms into living spaces. Give players, partners and AI agents the code, tools and permissions to play in your sandbox, or they'll build their own.</p>
           </li>
         </ol>
@@ -176,19 +179,19 @@
         <h2 id="act-3">Act III: The Practice</h2>
         <ol class="theses" start="12">
           <li id="thesis-12">
-            <h3>The scarce thing is judgement.<a class="thesis-link" href="#thesis-12" aria-label="Link to thesis 12" title="Link to thesis 12"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>The scarce thing is judgement.<button class="thesis-link" type="button" aria-label="Copy link to thesis 12" title="Copy link to thesis 12"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Machines got cheap, then generative - making is a solved problem. What's left is human judgement: knowing who an experience is for, why they should care and how to convert attention into affinity. Cheaper machines don't just speed up production; they make flawed judgement catastrophically expensive.</p>
           </li>
           <li id="thesis-13">
-            <h3>The audience is evidence.<a class="thesis-link" href="#thesis-13" aria-label="Link to thesis 13" title="Link to thesis 13"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>The audience is evidence.<button class="thesis-link" type="button" aria-label="Copy link to thesis 13" title="Copy link to thesis 13"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Usage is oxygen for ideas. Telemetry beats opinion; observed behaviour beats blind assumption. Maker mode lies: it overweights production preferences and underweights actual user habit. Small, fast probes into real desires beat large, slow bets informed by internal conviction. Trust where audiences cluster and return, not what they claim they want.</p>
           </li>
           <li id="thesis-14">
-            <h3>Orchestration beats authorship.<a class="thesis-link" href="#thesis-14" aria-label="Link to thesis 14" title="Link to thesis 14"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Orchestration beats authorship.<button class="thesis-link" type="button" aria-label="Copy link to thesis 14" title="Copy link to thesis 14"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>Create the conditions for value to circulate. Fewer cathedrals, more culturematics. Fewer polished products, more participatory probes. Authorship still plants the seed, but execution is gardening: you don't dictate what grows, you choose what gets watered.</p>
           </li>
           <li id="thesis-15">
-            <h3>Culture and collateral beat commodities.<a class="thesis-link" href="#thesis-15" aria-label="Link to thesis 15" title="Link to thesis 15"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></h3>
+            <h3>Culture and collateral beat commodities.<button class="thesis-link" type="button" aria-label="Copy link to thesis 15" title="Copy link to thesis 15"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button></h3>
             <p>The thing is not always the thing. The customer is not always the customer. Commodities compete on price and convenience; culture and collateral compete on identity and affinity. Capture value through mementos, memberships, status and access that signal belonging rather than extraction. Money becomes meaningful when it expresses belief.</p>
           </li>
         </ol>
@@ -211,5 +214,46 @@
       <p>Sean Taylor &middot; Made in Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇦🇪 Based in Dubai &middot; <a href="https://seantaylor.work/">seantaylor.work</a></p>
     </footer>
   </main>
+  <p id="copy-status" class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  <script>
+    const canonicalUrl = document.querySelector('link[rel="canonical"]').href;
+    const copyStatus = document.getElementById('copy-status');
+    let copyStatusTimeout;
+
+    function copyWithSelection(url) {
+      const field = document.createElement('textarea');
+      const focusedElement = document.activeElement;
+      field.value = url;
+      field.readOnly = true;
+      field.style.cssText = 'position:fixed;top:0;left:-9999px;opacity:0;font-size:16px';
+      document.body.append(field);
+      try {
+        field.select();
+        if (!document.execCommand('copy')) throw new Error('Copy unavailable');
+      } finally {
+        field.remove();
+        focusedElement?.focus({ preventScroll: true });
+      }
+    }
+
+    document.querySelectorAll('.thesis-link').forEach(button => {
+      button.addEventListener('click', async () => {
+        const url = new URL(`#${button.closest('li[id]').id}`, canonicalUrl).href;
+        clearTimeout(copyStatusTimeout);
+        copyStatus.textContent = '';
+        try {
+          try {
+            await navigator.clipboard.writeText(url);
+          } catch {
+            copyWithSelection(url);
+          }
+          copyStatus.textContent = 'Link copied';
+        } catch {
+          copyStatus.textContent = 'Couldn’t copy the link. Please try again.';
+        }
+        copyStatusTimeout = setTimeout(() => { copyStatus.textContent = ''; }, 2500);
+      });
+    });
+  </script>
 </body>
 </html>
