@@ -3,7 +3,7 @@
   <!-- Root site pages served from seantaylor.work. The canonical notes archive lives separately at https://notes.seantaylor.work/. -->
   <url>
     <loc>https://seantaylor.work/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -33,19 +33,19 @@
   </url>
   <url>
     <loc>https://seantaylor.work/experience.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seantaylor.work/ingame-impact</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://seantaylor.work/tv-as-a-games-platform</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -54,5 +54,11 @@
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seantaylor.work/work-with-me.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
