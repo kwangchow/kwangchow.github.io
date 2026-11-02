@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Assembly Loops — Sean Taylor</title>
+  <meta name="description" content="What if we rebuilt Denki's creative assembly lines as agentic loops? A long-term project to remake how playthings get made, one loop at a time.">
+  <meta name="author" content="Sean Taylor">
+  <link rel="canonical" href="https://seantaylor.work/creative-assembly-loops.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Creative Assembly Loops">
+  <meta property="og:description" content="What if we rebuilt Denki's creative assembly lines as agentic loops? A long-term project to remake how playthings get made, one loop at a time.">
+  <meta property="og:url" content="https://seantaylor.work/creative-assembly-loops.html">
+  <meta property="og:image" content="https://seantaylor.work/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Sean Taylor">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Creative Assembly Loops">
+  <meta name="twitter:description" content="What if we rebuilt Denki's creative assembly lines as agentic loops? A long-term project to remake how playthings get made, one loop at a time.">
+  <meta name="twitter:image" content="https://seantaylor.work/og-image.svg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://seantaylor.work/creative-assembly-loops.html#article",
+  "headline": "Creative Assembly Loops",
+  "description": "What if we rebuilt Denki's creative assembly lines as agentic loops? A long-term project to remake how playthings get made, one loop at a time.",
+  "url": "https://seantaylor.work/creative-assembly-loops.html",
+  "inLanguage": "en-GB",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "@id": "https://seantaylor.work/#sean-taylor",
+    "name": "Sean Taylor",
+    "url": "https://seantaylor.work/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seantaylor.work/creative-assembly-loops.html#webpage"
+  },
+  "isPartOf": {
+    "@id": "https://seantaylor.work/#website"
+  }
+}
+  </script>
+  <link rel="stylesheet" href="/site.css">
+  <style>
+    .subtitle { color: var(--text-secondary); }
+    .byline { font-size: .8rem; color: var(--text-secondary); }
+    .play-cta { margin-top: 1.25rem; padding: .9rem 1rem; border: 1px solid var(--border); border-radius: 3px; background: #fff; }
+    .play-cta strong a { text-decoration-thickness: 2px; }
+    .part { margin-bottom: 3rem; }
+    .part h2 { border-top: 1px solid var(--border); padding-top: 1.5rem; margin-bottom: 1.25rem; }
+    .part h3 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+    .part h4 { margin: 1.4rem 0 .4rem; font-size: .95rem; }
+    .part p { font-size: .95rem; }
+    .part ul { margin: .4rem 0 0; padding-left: 1.15rem; font-size: .95rem; }
+    .part li + li { margin-top: .45rem; }
+    .note { color: var(--text-secondary); font-size: .875rem !important; }
+    .pull { margin: 1.6rem 0 0; padding-left: 1rem; border-left: 2px solid var(--text); font-size: 1.15rem; font-weight: 600; line-height: 1.4; letter-spacing: -.01em; }
+    .pull p { font-size: inherit; }
+    .flow { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .35rem; margin: 0 0 .6rem; padding: 0; list-style: none; font-size: .85rem; font-weight: 600; }
+    .flow li { margin: 0 !important; }
+    .flow li:not(:last-child)::after { content: "→"; margin-left: .35rem; color: var(--text-secondary); font-weight: 400; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0 0; font-size: .9rem; line-height: 1.45; }
+    th, td { text-align: left; vertical-align: top; padding: .6rem .9rem .6rem 0; border-bottom: 1px solid var(--border); }
+    th:last-child, td:last-child { padding-right: 0; }
+    th { font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-secondary); }
+    td:first-child { white-space: nowrap; font-weight: 600; }
+    .roadmap td:first-child { white-space: normal; }
+    .roadmap .now { font-weight: 400; color: var(--text-secondary); }
+    .catalogue { list-style: none; margin: 1rem 0 0 !important; padding: 0 !important; }
+    .catalogue > li { margin: 0 !important; padding: 1rem 0; border-bottom: 1px solid var(--border); }
+    .catalogue > li:first-child { border-top: 1px solid var(--border); }
+    .catalogue .title { margin: 0; font-size: 1rem; font-weight: 600; }
+    .catalogue .num { color: var(--text-secondary); font-variant-numeric: tabular-nums; margin-right: .5rem; }
+    .catalogue .strap { display: block; margin-top: .1rem; font-weight: 400; font-size: .95rem; }
+    .catalogue dl { display: grid; grid-template-columns: 7.5rem 1fr; gap: .3rem 1rem; margin: .7rem 0 0; font-size: .9rem; }
+    .catalogue dt { color: var(--text-secondary); font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding-top: .15rem; }
+    .catalogue dd { margin: 0; }
+    .roles { display: grid; grid-template-columns: 4.5rem 1fr; gap: .4rem 1rem; margin: 1.25rem 0 0; font-size: .95rem; }
+    .roles dt { font-weight: 600; }
+    .roles dd { margin: 0; }
+    .rules li strong { font-weight: 600; }
+    .closing { font-size: .95rem; margin-bottom: 2.5rem; }
+    @media (max-width: 520px) {
+      .catalogue dl { grid-template-columns: 1fr; gap: 0; }
+      .catalogue dd + dt { margin-top: .5rem; }
+      .roadmap thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+      .roadmap tr { display: block; padding: .8rem 0; border-bottom: 1px solid var(--border); }
+      .roadmap td { display: block; padding: .1rem 0; border: 0; }
+      .roadmap td:nth-child(2)::before { content: "Adds: "; color: var(--text-secondary); }
+    }
+    @media print {
+      .play-cta { border: 0; padding: 0; background: none; }
+      .catalogue > li, table { break-inside: avoid; }
+      .part h2 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/experience.html">Experience</a>
+      <a href="/work-with-me.html">Work with me</a>
+      <a href="https://notes.seantaylor.work/">Notebook</a>
+      <a href="mailto:sean@seantaylor.work">Email</a>
+    </nav>
+
+    <article aria-labelledby="page-title">
+      <header>
+        <h1 id="page-title">Creative Assembly Loops</h1>
+        <p class="subtitle"><em>What if we rebuilt Denki's creative assembly lines as agentic loops?</em></p>
+        <p>A long-term project to remake how playthings get made, one loop at a time.</p>
+        <p class="play-cta"><strong>Play the first one: <a href="https://playthings.seantaylor.work/001-pass-master/">001 Pass Master</a></strong>, a one-tap football timing game, on your phone or desktop.</p>
+        <p class="byline" style="margin-top:1.25rem">Sean Taylor · <time datetime="2026-11-02">November 2026</time> · a working page, updated as the loops run</p>
+      </header>
+
+      <section class="part" aria-labelledby="what">
+        <h2 id="what">What</h2>
+        <p>A human–AI co-production loop for tiny, instantly playable browser games. Each loop ships one thin slice, a polished first playable, and leaves the process better than it found it.</p>
+
+        <h3 id="catalogue">Catalogue</h3>
+        <p>Every plaything is also an experiment on the loop, and in service of its iteration.</p>
+        <ol class="catalogue">
+          <li>
+            <p class="title"><span class="num">001</span><a href="https://playthings.seantaylor.work/001-pass-master/">Pass Master</a><span class="strap">A one-tap football timing game</span></p>
+            <dl>
+              <dt>What it tests</dt><dd>Theory into practice: build it, expose the assumptions, codify the loop</dd>
+              <dt>Seed to ship</dt><dd>4 days from a one-line prompt (27–30 Oct)</dd>
+              <dt>Status</dt><dd>Shipped 30 Oct 2026</dd>
+            </dl>
+          </li>
+          <li>
+            <p class="title"><span class="num">002</span>Rondo<span class="strap">Pass Master, evolved</span></p>
+            <dl>
+              <dt>What it tests</dt><dd>A harder design challenge for loop v1.2, timed from seed to sign-off</dd>
+              <dt>Seed to ship</dt><dd>Clock starts 4 Nov</dd>
+              <dt>Status</dt><dd>In progress, from 4 Nov</dd>
+            </dl>
+          </li>
+          <li>
+            <p class="title"><span class="num">003</span>Amp<span class="strap">A Denki prototype, designed and rebuilt from scratch</span></p>
+            <dl>
+              <dt>What it tests</dt><dd>A Pepsi challenge: the original stays sealed until the rebuild is done, then we compare and critique</dd>
+              <dt>Seed to ship</dt><dd>–</dd>
+              <dt>Status</dt><dd>Next</dd>
+            </dl>
+          </li>
+        </ol>
+      </section>
+
+      <section class="part" aria-labelledby="why">
+        <h2 id="why">Why</h2>
+        <p><a href="/amusement-economy.html#thesis-4">Everything is a games platform now</a> and <a href="/amusement-economy.html#thesis-12">making is cheap</a>, so the constraint has moved: choosing what to make, <a href="/amusement-economy.html#thesis-13">proving it early</a> and <a href="/amusement-economy.html#thesis-10">polishing it properly</a>. Denki solved that with process, not headcount; agents let a tiny team run that process again, in loops that get better with every pass.</p>
+        <blockquote class="pull"><p>The idea isn't what goes in at the top. It's what flows through the loops.</p></blockquote>
+      </section>
+
+      <section class="part" aria-labelledby="context">
+        <h2 id="context">Context: lines then, loops now</h2>
+        <p>Nathan Baschez argues that the future of work is <a href="https://www.gettheleverage.com/p/against-the-personal-agents-theory">shared factories, not personal agents</a>. It made me think of <a href="https://www.denki.co.uk">Denki</a>, where we didn't run a traditional games studio: we ran <a href="https://www.gamedeveloper.com/production/creative-assembly-lines">creative assembly lines</a>. In 2006 I joined Denki as its third <a href="https://www.gamesindustry.biz/denki-appoints-new-entertainment-product-architect">Entertainment Product Architect</a>, the equivalent of a <a href="https://en.wikipedia.org/wiki/Showrunner">showrunner</a>. I was responsible for the design, production and delivery of all the company's game titles and digital toys, across digital interactive TV, online, mobile and other formats. Games went from idea to live on Sky in six to ten weeks (<a href="/tv-as-a-games-platform">TV as a Games Platform</a>), and I ran the same process in short loops to take <a href="/quarrel">Quarrel</a> from vertical slice to BAFTA Scotland Best Game.</p>
+        <p>If you rebuilt Denki today, it would be a tiny team at the heart of a colony of agents. Tom Critchlow's <a href="https://tomcritchlow.com/2026/06/08/termites-tokens/">Of Termites &amp; Tokens</a> names the shift: “the opportunity is not to build faster, smaller machines - but to become a colony: a mixed population of humans, agents, bots, scripts, dashboards, workflows, alerts, memories and permissions, all sensing and acting through local signals.”</p>
+        <p>So this is agentic <em>augmentation</em>, not automation: the Entertainment Product Architect remade as scout, shaper, showrunner, editor and storyteller. (<a href="https://notes.seantaylor.work/creative-assembly-lines/">More on lines and loops</a>.)</p>
+      </section>
+
+      <section class="part" aria-labelledby="how">
+        <h2 id="how">How</h2>
+        <ol class="flow" aria-label="The loop, in order">
+          <li>Seed</li><li>Interactive Spec</li><li>Play 1.0</li><li>Game 1.0</li><li>Thin Slice</li><li>Ship</li><li>Postscript</li>
+        </ol>
+        <p class="note"><em>Loop v1.2, correct as of 2 November 2026 (the process updates with each release)</em></p>
+        <table>
+          <thead><tr><th scope="col">Stage</th><th scope="col">Proves</th></tr></thead>
+          <tbody>
+            <tr><td>0 · Seed</td><td>The intent, and everything risky or unknown about it</td></tr>
+            <tr><td>1 · Interactive Spec</td><td>Risky assumptions proven or killed in toys, before anything is built</td></tr>
+            <tr><td>2 · Play 1.0</td><td>The core verb feels good on the target device</td></tr>
+            <tr><td>3 · Game 1.0</td><td>The rules and structure work</td></tr>
+            <tr><td>4 · Thin Slice</td><td>It looks, sounds and feels finished</td></tr>
+            <tr><td>5 · Ship</td><td>The public build works live</td></tr>
+            <tr><td>Postscript</td><td>What we learned, written up, and fed back into the loop</td></tr>
+          </tbody>
+        </table>
+        <dl class="roles">
+          <dt>Me</dt><dd>Vision, direction, shaping, balancing, playtesting, editing and sign-offs.</dd>
+          <dt>Claude</dt><dd>Questions, specs, toys, builds, tuning, testing and deployment.</dd>
+        </dl>
+        <h3>Three rules carry it</h3>
+        <ul class="rules">
+          <li><strong>Front-load risk, back-load polish.</strong> An untested idea is a toy, not a feature.</li>
+          <li><strong>Nothing moves without a sign-off.</strong> What's settled stays settled.</li>
+          <li><strong>Every post-mortem changes the loop.</strong> The process is versioned like the games.</li>
+        </ul>
+      </section>
+
+      <section class="part" aria-labelledby="roadmap">
+        <h2 id="roadmap">Roadmap</h2>
+        <p>The long-term ambition is to build the Denki × <a href="https://hbr.org/podcast/2012/05/make-your-own-culturematic">culturematic</a> equivalent of the <a href="https://en.wikipedia.org/wiki/OODA_loop">OODA loop</a>. For now, I'm focused on Version 1, Creative Assembly Loops: one loop, with a layer added for every plaything it ships, and plenty to do inside it. V2 and V3 are where one loop becomes a network of loops.</p>
+        <table class="roadmap">
+          <thead><tr><th scope="col">Version</th><th scope="col">Adds</th><th scope="col">The question</th></tr></thead>
+          <tbody>
+            <tr><td>V1 · Creative Assembly Loops <span class="now">(now)</span></td><td>Make it</td><td>How fast can a tiny human–AI team make playthings to a Denki standard?</td></tr>
+            <tr><td>V2 · + Attract Mode</td><td>Validate it</td><td>How might we put each plaything in front of a real audience and find out whether it pulls them in?</td></tr>
+            <tr><td>V3 · + Attention Arbitrage</td><td>Scout it</td><td>Which cultural opportunity, audience, mechanic and distribution surface should we combine in the first place?</td></tr>
+          </tbody>
+        </table>
+        <blockquote class="pull"><p>Attention Arbitrage identifies what might deserve to exist. Creative Assembly Loops makes and iterates it. Attract Mode discovers whether the audience agrees.</p></blockquote>
+      </section>
+
+      <section class="part" aria-labelledby="lessons">
+        <h2 id="lessons">Lessons learned</h2>
+        <h3 style="margin-top:0">001 Pass Master</h3>
+        <p><strong>In one line:</strong> do the hard human work up front, because every shortcut came back as rework.</p>
+        <!-- TODO: link the full post-mortem and making-of once published -->
+        <h4>What went well</h4>
+        <ul>
+          <li>We shared one vision: the high concept held from first build to ship, and the style guidelines gave us a shared language for fast feedback.</li>
+          <li>The Denki process worked in theory, then in practice: the more faithfully we followed it, the faster and better it went.</li>
+          <li>We iterated in short loops: with real references and a tuning panel of exposed, editable values, we could test an assumption or fix a design snag in a single round.</li>
+        </ul>
+        <h4>What could have gone better</h4>
+        <ul>
+          <li>We deliberately cut corners at the Seed and on the iteration path, and paid for it in rework.</li>
+          <li>Assumptions and contradictions became direction without being flagged or tested.</li>
+          <li>Our tools and records came late: the tuning panel, the making-of log, the repo and naming conventions.</li>
+        </ul>
+        <h4>Lessons for next time</h4>
+        <ul>
+          <li>Do the hard human work on the Seed, and flag every risk while shaping, before the Spec is signed off.</li>
+          <li>Prove risky assumptions and feel as toys in the Interactive Spec, before building Play 1.0.</li>
+          <li>Follow every stage of the loop. Each one is there for a reason.</li>
+        </ul>
+      </section>
+    </article>
+
+    <p class="closing">Work with me: <a href="/work-with-me.html">seantaylor.work/work-with-me</a></p>
+
+    <nav class="follow-section" aria-label="Follow along">
+      <h2>Follow Along</h2>
+      <div class="follow">
+        <a href="https://notes.seantaylor.work">Notebook</a>
+        <a href="https://playhaus.substack.com/archive">Substack</a>
+        <a href="https://www.linkedin.com/in/mrseantaylor/">LinkedIn</a>
+        <a href="https://x.com/kwangchow">X</a>
+        <a href="https://www.instagram.com/kwangchow/">Instagram</a>
+        <a href="https://github.com/kwangchow/">GitHub</a>
+      </div>
+    </nav>
+
+    <footer>
+      <p>Sean Taylor &middot; Made in Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇦🇪 Based in Dubai &middot; <a href="https://seantaylor.work/">seantaylor.work</a></p>
+    </footer>
+  </main>
+<!-- Cloudflare Web Analytics -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35bacc49be664037bbc5443334d9592b"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>
