@@ -1,9 +1,1204 @@
 {
-  "generatedAt": "2026-07-03",
-  "source": "Local markdown files for notes.seantaylor.work",
+  "generatedAt": "2026-11-03",
+  "source": "Published archive at https://notes.seantaylor.work/",
   "canonicalArchive": "https://notes.seantaylor.work/",
-  "entryCount": 95,
+  "entryCount": 179,
   "entries": [
+    {
+      "date": "2026-11-03",
+      "title": "Games Enter the Group Chat",
+      "url": "https://notes.seantaylor.work/games-enter-the-group-chat/",
+      "slug": "games-enter-the-group-chat",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Asymmetric Attention Wars",
+      "url": "https://notes.seantaylor.work/asymmetric-attention-wars/",
+      "slug": "asymmetric-attention-wars",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-30",
+      "title": "You Are Never Alone With A Clone",
+      "url": "https://notes.seantaylor.work/you-are-never-alone-with-a-clone/",
+      "slug": "you-are-never-alone-with-a-clone",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-29",
+      "title": "I Drink Your Milkshake",
+      "url": "https://notes.seantaylor.work/i-drink-your-milkshake/",
+      "slug": "i-drink-your-milkshake",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Edge Cases",
+      "url": "https://notes.seantaylor.work/edge-cases/",
+      "slug": "edge-cases",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Disenfranchised",
+      "url": "https://notes.seantaylor.work/disenfranchised/",
+      "slug": "disenfranchised",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Too Small, Too Weird",
+      "url": "https://notes.seantaylor.work/too-small-too-weird/",
+      "slug": "too-small-too-weird",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-23",
+      "title": "Attract Mode",
+      "url": "https://notes.seantaylor.work/attract-mode/",
+      "slug": "attract-mode",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-22",
+      "title": "For Your Amusement",
+      "url": "https://notes.seantaylor.work/for-your-amusement/",
+      "slug": "for-your-amusement",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Weapons Of Mass Disruption",
+      "url": "https://notes.seantaylor.work/weapons-of-mass-disruption/",
+      "slug": "weapons-of-mass-disruption",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-20",
+      "title": "The $200M Big Mac",
+      "url": "https://notes.seantaylor.work/the-200m-big-mac/",
+      "slug": "the-200m-big-mac",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Garbage In, Average Out",
+      "url": "https://notes.seantaylor.work/garbage-in-average-out/",
+      "slug": "garbage-in-average-out",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Heads Before Hands",
+      "url": "https://notes.seantaylor.work/heads-before-hands/",
+      "slug": "heads-before-hands",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Creative Assembly Lines",
+      "url": "https://notes.seantaylor.work/creative-assembly-lines/",
+      "slug": "creative-assembly-lines",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Attention Poverty",
+      "url": "https://notes.seantaylor.work/attention-poverty/",
+      "slug": "attention-poverty",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-13",
+      "title": "The Irrational Anthem",
+      "url": "https://notes.seantaylor.work/the-irrational-anthem/",
+      "slug": "the-irrational-anthem",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Compress Yourself",
+      "url": "https://notes.seantaylor.work/compress-yourself/",
+      "slug": "compress-yourself",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "After the Games Industry: 15 Theses",
+      "url": "https://notes.seantaylor.work/after-the-games-industry/",
+      "slug": "after-the-games-industry",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Death by Dashboard",
+      "url": "https://notes.seantaylor.work/death-by-dashboard/",
+      "slug": "death-by-dashboard",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-07",
+      "title": "The Handstand Problem",
+      "url": "https://notes.seantaylor.work/the-handstand-problem/",
+      "slug": "the-handstand-problem",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Right Instinct, Wrong Idea",
+      "url": "https://notes.seantaylor.work/right-instinct-wrong-idea/",
+      "slug": "right-instinct-wrong-idea",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Ethnographic Beats Algorithmic",
+      "url": "https://notes.seantaylor.work/ethnographic-beats-algorithmic/",
+      "slug": "ethnographic-beats-algorithmic",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "The Scarce Thing Is Not Output",
+      "slug": "the-scarce-thing-is-not-output",
+      "url": "https://notes.seantaylor.work/the-scarce-thing-is-not-output/",
+      "date": "2026-10-02",
+      "summary": "As production gets cheaper, making more stuff stops being the interesting bit. The scarce thing is the container people want to keep returning to.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "playful media",
+        "attention and distribution",
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Value Unspoken",
+      "url": "https://notes.seantaylor.work/value-unspoken/",
+      "slug": "value-unspoken",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Volition, Inspiration, Amusement - In That Order",
+      "url": "https://notes.seantaylor.work/volition-inspiration-amusement/",
+      "slug": "volition-inspiration-amusement",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-30",
+      "title": "People, Ideas, Machines - In That Order",
+      "url": "https://notes.seantaylor.work/people-ideas-machines/",
+      "slug": "people-ideas-machines",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-29",
+      "title": "The Customer Is Not The Customer",
+      "url": "https://notes.seantaylor.work/the-customer-is-not-the-customer/",
+      "slug": "the-customer-is-not-the-customer",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Evidence Theatre",
+      "url": "https://notes.seantaylor.work/evidence-theatre/",
+      "slug": "evidence-theatre",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Attention Auctions",
+      "url": "https://notes.seantaylor.work/attention-auctions/",
+      "slug": "attention-auctions",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Re-Presentation And Contextualisation",
+      "url": "https://notes.seantaylor.work/re-presentation-and-contextualisation/",
+      "slug": "re-presentation-and-contextualisation",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-23",
+      "title": "We're Going To Need A Bigger Bait",
+      "url": "https://notes.seantaylor.work/bigger-bait/",
+      "slug": "bigger-bait",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-22",
+      "title": "The Inequality Of Attention",
+      "url": "https://notes.seantaylor.work/the-inequality-of-attention/",
+      "slug": "the-inequality-of-attention",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Doherty Threshold For Amusement",
+      "url": "https://notes.seantaylor.work/doherty-threshold-for-amusement/",
+      "slug": "doherty-threshold-for-amusement",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Fanscaling",
+      "url": "https://notes.seantaylor.work/fanscaling/",
+      "slug": "fanscaling",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-17",
+      "title": "The Inelasticity Of Attention",
+      "url": "https://notes.seantaylor.work/the-inelasticity-of-attention/",
+      "slug": "the-inelasticity-of-attention",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Catmull On Curiosity",
+      "url": "https://notes.seantaylor.work/catmull-on-curiosity/",
+      "slug": "catmull-on-curiosity",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Virtual Retail-ity",
+      "url": "https://notes.seantaylor.work/virtual-retaility/",
+      "slug": "virtual-retaility",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Lost In The K-Hole",
+      "url": "https://notes.seantaylor.work/lost-in-the-k-hole/",
+      "slug": "lost-in-the-k-hole",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Heartbeats, Not Finish Lines",
+      "url": "https://notes.seantaylor.work/heartbeats-not-finish-lines/",
+      "slug": "heartbeats-not-finish-lines",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-10",
+      "title": "MOR Is DOA",
+      "url": "https://notes.seantaylor.work/mor-is-doa/",
+      "slug": "mor-is-doa",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Moreish Media",
+      "url": "https://notes.seantaylor.work/moreish-media/",
+      "slug": "moreish-media",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-08",
+      "title": "AMC Does DTC",
+      "url": "https://notes.seantaylor.work/amc-does-dtc/",
+      "slug": "amc-does-dtc",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Authentic Approximation",
+      "url": "https://notes.seantaylor.work/authentic-approximation/",
+      "slug": "authentic-approximation",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Participation Is A Hell Of A Drug",
+      "url": "https://notes.seantaylor.work/participation-is-a-hell-of-a-drug/",
+      "slug": "participation-is-a-hell-of-a-drug",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-03",
+      "title": "What Happens In The Sandbox...",
+      "url": "https://notes.seantaylor.work/what-happens-in-the-sandbox/",
+      "slug": "what-happens-in-the-sandbox",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-02",
+      "title": "The Prestige",
+      "url": "https://notes.seantaylor.work/the-prestige/",
+      "slug": "the-prestige",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Taste Is The Wrong Word",
+      "url": "https://notes.seantaylor.work/taste-is-the-wrong-word/",
+      "slug": "taste-is-the-wrong-word",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-31",
+      "title": "The Thing Is Not The Thing",
+      "url": "https://notes.seantaylor.work/the-thing-is-not-the-thing/",
+      "slug": "the-thing-is-not-the-thing",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Content And Its Complements",
+      "url": "https://notes.seantaylor.work/content-and-its-complements/",
+      "slug": "content-and-its-complements",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Same Tools, Different Incentives",
+      "url": "https://notes.seantaylor.work/same-tools-different-incentives/",
+      "slug": "same-tools-different-incentives",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Formats With Consequences",
+      "url": "https://notes.seantaylor.work/formats-with-consequences/",
+      "slug": "formats-with-consequences",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-25",
+      "title": "What The Words Become",
+      "url": "https://notes.seantaylor.work/what-the-words-become/",
+      "slug": "what-the-words-become",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Make The Work Legible",
+      "url": "https://notes.seantaylor.work/make-the-work-legible/",
+      "slug": "make-the-work-legible",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Fan Surplus Thinking",
+      "url": "https://notes.seantaylor.work/fan-surplus-thinking/",
+      "slug": "fan-surplus-thinking",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Out Of Control",
+      "url": "https://notes.seantaylor.work/out-of-control/",
+      "slug": "out-of-control",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Little Spaceships",
+      "url": "https://notes.seantaylor.work/little-spaceships/",
+      "slug": "little-spaceships",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Manual labour",
+      "url": "https://notes.seantaylor.work/manual-labour/",
+      "slug": "manual-labour",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Industrialising synthetic television",
+      "url": "https://notes.seantaylor.work/industrialising-synthetic-television/",
+      "slug": "industrialising-synthetic-television",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Commentary Is Not Culturematic",
+      "url": "https://notes.seantaylor.work/commentary-is-not-culturematic/",
+      "slug": "commentary-is-not-culturematic",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Side Quest Commerce",
+      "url": "https://notes.seantaylor.work/side-quest-commerce/",
+      "slug": "side-quest-commerce",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-12",
+      "title": "The Discipline Of The Sandbox",
+      "url": "https://notes.seantaylor.work/the-discipline-of-the-sandbox/",
+      "slug": "the-discipline-of-the-sandbox",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-11",
+      "title": "They Call Me The Seeker",
+      "url": "https://notes.seantaylor.work/they-call-me-the-seeker/",
+      "slug": "they-call-me-the-seeker",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Set and Setting",
+      "url": "https://notes.seantaylor.work/set-and-setting/",
+      "slug": "set-and-setting",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Small batch and neat",
+      "url": "https://notes.seantaylor.work/small-batch-and-neat/",
+      "slug": "small-batch-and-neat",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Fear Of The Present",
+      "url": "https://notes.seantaylor.work/fear-of-the-present/",
+      "slug": "fear-of-the-present",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Occasions For Listening",
+      "url": "https://notes.seantaylor.work/occasions-for-listening/",
+      "slug": "occasions-for-listening",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Making Is A Solved Problem",
+      "url": "https://notes.seantaylor.work/making-is-a-solved-problem/",
+      "slug": "making-is-a-solved-problem",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-08-03",
+      "title": "The Last Mainstream",
+      "url": "https://notes.seantaylor.work/the-last-mainstream/",
+      "slug": "the-last-mainstream",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Parallel Lines",
+      "url": "https://notes.seantaylor.work/parallel-lines/",
+      "slug": "parallel-lines",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Gradually then suddenly",
+      "url": "https://notes.seantaylor.work/gradually-then-suddenly/",
+      "slug": "gradually-then-suddenly",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Fandom is friction",
+      "url": "https://notes.seantaylor.work/fandom-is-friction/",
+      "slug": "fandom-is-friction",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-28",
+      "title": "The Rational Anthem",
+      "url": "https://notes.seantaylor.work/the-rational-anthem/",
+      "slug": "the-rational-anthem",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Is it polish or procrastination?",
+      "url": "https://notes.seantaylor.work/polish-or-procrastination/",
+      "slug": "polish-or-procrastination",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Efficiency Is Overrated",
+      "url": "https://notes.seantaylor.work/efficiency-is-overrated/",
+      "slug": "efficiency-is-overrated",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-23",
+      "title": "Product Is A Trade",
+      "url": "https://notes.seantaylor.work/product-is-a-trade/",
+      "slug": "product-is-a-trade",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Hope Is Not A Strategy",
+      "url": "https://notes.seantaylor.work/hope-is-not-a-strategy/",
+      "slug": "hope-is-not-a-strategy",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-21",
+      "title": "The Sophomore Slump",
+      "url": "https://notes.seantaylor.work/the-sophomore-slump/",
+      "slug": "the-sophomore-slump",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-20",
+      "title": "The Long, Hard, Stupid Way",
+      "url": "https://notes.seantaylor.work/the-long-hard-stupid-way/",
+      "slug": "the-long-hard-stupid-way",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-17",
+      "title": "The Revolution Will Be Gamified",
+      "url": "https://notes.seantaylor.work/the-revolution-will-be-gamified/",
+      "slug": "the-revolution-will-be-gamified",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Honesty In The Dark",
+      "url": "https://notes.seantaylor.work/honesty-in-the-dark/",
+      "slug": "honesty-in-the-dark",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Playable Thing For A Popular Thing",
+      "url": "https://notes.seantaylor.work/playable-thing-for-a-popular-thing/",
+      "slug": "playable-thing-for-a-popular-thing",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Swede Dreams",
+      "url": "https://notes.seantaylor.work/swede-dreams/",
+      "slug": "swede-dreams",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-13",
+      "title": "Side Projects Are Serendipity Machines",
+      "url": "https://notes.seantaylor.work/side-projects-are-serendipity-machines/",
+      "slug": "side-projects-are-serendipity-machines",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "The Constant Gardener",
+      "slug": "the-constant-gardener",
+      "url": "https://notes.seantaylor.work/the-constant-gardener/",
+      "date": "2026-07-10",
+      "summary": "AI knowledge work is starting to look less like making and more like gardening: creating the conditions where good things can grow.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "product strategy",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "The Right to Disappoint You",
+      "slug": "the-right-to-disappoint-you",
+      "url": "https://notes.seantaylor.work/the-right-to-disappoint-you/",
+      "date": "2026-07-09",
+      "summary": "Bob Dylan’s liberalism was not abstract politics. It was self-invention under pressure: the right to disappoint people who think they own your previous self.",
+      "tags": [],
+      "topics": [
+        "playful media"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Pretending on Purpose",
+      "slug": "pretending-on-purpose",
+      "url": "https://notes.seantaylor.work/pretending-on-purpose/",
+      "date": "2026-07-08",
+      "summary": "Meccha Chameleon works because it is less about hiding well than giving players a reason to be funny, silly and creative together.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "playful media",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Amusements in the Age of Attention",
+      "url": "https://notes.seantaylor.work/amusements-in-the-age-of-attention/",
+      "slug": "amusements-in-the-age-of-attention",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "The Accidental Slop Machine",
+      "slug": "the-accidental-slop-machine",
+      "url": "https://notes.seantaylor.work/the-accidental-slop-machine/",
+      "date": "2026-07-06",
+      "summary": "Tweetie made refreshing the feed feel alive. Pull-to-refresh did not invent slop, but it gave the feed a handle to pull.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Bad Santa Runs An Oil Company",
+      "slug": "bad-santa-runs-an-oil-company",
+      "url": "https://notes.seantaylor.work/bad-santa-runs-an-oil-company/",
+      "date": "2026-07-03",
+      "summary": "Taylor Sheridan's pitch for Landman is familiar but fresh. No deck, no lore, no market map. You can see it straight away.",
+      "tags": [],
+      "topics": [
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Bad Jokes Told Well",
+      "slug": "bad-jokes-told-well",
+      "url": "https://notes.seantaylor.work/bad-jokes-told-well/",
+      "date": "2026-07-02",
+      "summary": "A bad joke told well can beat a good joke told badly. The same is true of music, games and playful experiences: context is part of the work.",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Losing My Edge",
+      "slug": "losing-my-edge",
+      "url": "https://notes.seantaylor.work/losing-my-edge/",
+      "date": "2026-07-01",
+      "summary": "Cannes Lions used to be where agencies and marketers traded cultural capital. Now its about losing its edge to creators.",
+      "tags": [],
+      "topics": [
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Pop Slop and Parasocial Playthings",
+      "slug": "pop-slop-and-parasocial-playthings",
+      "url": "https://notes.seantaylor.work/pop-slop-and-parasocial-playthings/",
+      "date": "2026-06-30",
+      "summary": "Parasocial feeds create demand for people-shaped amusements. Some of it is slop, but empty calories still compete for appetite.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "No Console For Old Men",
+      "slug": "no-console-for-old-men",
+      "url": "https://notes.seantaylor.work/no-console-for-old-men/",
+      "date": "2026-06-29",
+      "summary": "Grey gamers are growing, but the opportunity is not nostalgia hardware. It is short-session, long-arc amusements for lapsed players who still understand games.",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "product strategy",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Ads as attention levers",
+      "slug": "ads-as-attention-levers",
+      "url": "https://notes.seantaylor.work/ads-as-attention-levers/",
+      "date": "2026-06-28",
+      "summary": "Viewers say they hate ads, but they choose the cheaper ad tier. For Netflix, ads are becoming levers for reach, frequency and attention.",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Personality Drives Distribution",
+      "slug": "personality-drives-distribution",
+      "url": "https://notes.seantaylor.work/personality-drives-distribution/",
+      "date": "2026-06-26",
+      "summary": "meta_description: Performance creates credibility. Personality converts it into cultural collateral.",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution",
+        "product strategy",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Unintended Ozempic Consequences",
+      "slug": "unintended-ozempic-consequences",
+      "url": "https://notes.seantaylor.work/unintended-ozempic-consequences/",
+      "date": "2026-06-25",
+      "summary": "GLP-1 drugs suppress appetite. But they may also make consumers more discerning.",
+      "tags": [],
+      "topics": [
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
     {
       "title": "Same as it ever was",
       "slug": "same-as-it-ever-was",
@@ -15,6 +1210,37 @@
         "AI and agents",
         "attention and distribution",
         "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Gimme friction, baby",
+      "slug": "gimme-friction-baby",
+      "url": "https://notes.seantaylor.work/gimme-friction-baby/",
+      "date": "2026-06-23",
+      "summary": "In a world where everything is free and nothing is valued, what if friction is your feature?",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution",
+        "product strategy",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Monsters and Mirrors",
+      "slug": "monsters-and-mirrors",
+      "url": "https://notes.seantaylor.work/monsters-and-mirrors/",
+      "date": "2026-06-22",
+      "summary": "AI models are not monsters, just reflections of the people, data and institutions that shape them.",
+      "tags": [],
+      "topics": [
+        "AI and agents"
       ],
       "isPage": false,
       "publish": true,
@@ -68,6 +1294,21 @@
       "discoverable": true
     },
     {
+      "title": "Oxygen For Ideas",
+      "slug": "oxygen-for-ideas",
+      "url": "https://notes.seantaylor.work/oxygen-for-ideas/",
+      "date": "2026-06-16",
+      "summary": "Ideas do not get better in private. They need usage, audience and oxygen.",
+      "tags": [],
+      "topics": [
+        "attention and distribution",
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "title": "The Algorithmic Land of Toys",
       "slug": "algorithmic-land-of-toys",
       "url": "https://notes.seantaylor.work/algorithmic-land-of-toys/",
@@ -80,6 +1321,95 @@
         "attention and distribution",
         "culture and creativity"
       ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Universal Basic Identity",
+      "url": "https://notes.seantaylor.work/universal-basic-identity/",
+      "slug": "universal-basic-identity",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Loops of Fury",
+      "slug": "loops-of-fury",
+      "url": "https://notes.seantaylor.work/loops-of-fury/",
+      "date": "2026-06-11",
+      "summary": "How clipping turns songs, scenes and memes into feedback loops where discovery comes unbundled from the thing being discovered.",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Wheels of Fortune",
+      "slug": "wheels-of-fortune",
+      "url": "https://notes.seantaylor.work/wheels-of-fortune/",
+      "date": "2026-06-10",
+      "summary": "Are Anthropic and OpenAI building flywheels or hamster wheels?",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Authenticity is a Con: Synthetic Social Signals",
+      "slug": "synthetic-social-signals",
+      "url": "https://notes.seantaylor.work/synthetic-social-signals/",
+      "date": "2026-06-09",
+      "summary": "Clipping does not fake popularity so much as manufacture the early signals that make popularity possible.",
+      "tags": [],
+      "topics": [
+        "AI and agents",
+        "playful media",
+        "attention and distribution",
+        "product strategy",
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Bullets before cannonballs",
+      "slug": "bullets-before-cannonballs",
+      "url": "https://notes.seantaylor.work/bullets-before-cannonballs/",
+      "date": "2026-06-08",
+      "summary": "title: Bullets before cannonballs link: bullets before cannonballs meta description: How Adidas and Nike’s World Cup campaigns show why modern brand building is less bullets versus cannonballs than bullets b...",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution",
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Attention Is Your Banker",
+      "url": "https://notes.seantaylor.work/attention-is-your-banker/",
+      "slug": "attention-is-your-banker",
+      "summary": "",
+      "tags": [],
+      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -170,6 +1500,18 @@
       "discoverable": true
     },
     {
+      "title": "Blue Dot Fever",
+      "slug": "blue-dot-fever",
+      "url": "https://notes.seantaylor.work/blue-dot-fever/",
+      "date": "2026-05-07",
+      "summary": "What happens when \"consumer tolerance for rising ticket prices has become untenable\"?",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "title": "Anticipatory Experiences",
       "slug": "anticipatory-experiences",
       "url": "https://notes.seantaylor.work/anticipatory-experiences/",
@@ -179,18 +1521,6 @@
       "topics": [
         "AI and agents"
       ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Blue Dot Fever",
-      "slug": "blue-dot-fever",
-      "url": "https://notes.seantaylor.work/blue-dot-fever/",
-      "date": "2026-05-07",
-      "summary": "What happens when \"consumer tolerance for rising ticket prices has become untenable\"?",
-      "tags": [],
-      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -256,17 +1586,13 @@
       "discoverable": true
     },
     {
-      "title": "The declining commodities market",
-      "slug": "commodities",
-      "url": "https://notes.seantaylor.work/commodities/",
       "date": "2026-04-23",
-      "summary": "Owen Mahoney: writing about Hippie Snobs: The dirty secret about differentiation, like all innovation, is that it is extremely uncomfortable. We humans are creatures of evolution. Until very recently, going...",
+      "title": "Game Tech Is Transforming The World: Hollywood Edition",
+      "url": "https://notes.seantaylor.work/game-tech-hollywood/",
+      "slug": "game-tech-hollywood",
+      "summary": "",
       "tags": [],
-      "topics": [
-        "playful media",
-        "product strategy",
-        "culture and creativity"
-      ],
+      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -281,6 +1607,22 @@
       "topics": [
         "AI and agents",
         "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "The declining commodities market",
+      "slug": "commodities",
+      "url": "https://notes.seantaylor.work/commodities/",
+      "date": "2026-04-23",
+      "summary": "Owen Mahoney: writing about Hippie Snobs: The dirty secret about differentiation, like all innovation, is that it is extremely uncomfortable. We humans are creatures of evolution. Until very recently, going...",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "product strategy",
+        "culture and creativity"
       ],
       "isPage": false,
       "publish": true,
@@ -404,6 +1746,20 @@
       "discoverable": true
     },
     {
+      "title": "The Taylor Swift Data Fallacy",
+      "slug": "the-taylor-swift-data-fallacy",
+      "url": "https://notes.seantaylor.work/the-taylor-swift-data-fallacy/",
+      "date": "2025-09-25",
+      "summary": "The Entertainment Strategy Guy: The Taylor Swift Data Fallacy : When the most popular celebrity, creator or piece of IP in one genre or medium switches to a new genre or medium, and then their work succeeds....",
+      "tags": [],
+      "topics": [
+        "product strategy"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "title": "Atomic Economics",
       "slug": "atomic-economics",
       "url": "https://notes.seantaylor.work/atomic-economics/",
@@ -412,20 +1768,6 @@
       "tags": [],
       "topics": [
         "AI and agents",
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Taylor Swift Data Fallacy",
-      "slug": "the-taylor-swift-data-fallacy",
-      "url": "https://notes.seantaylor.work/the-taylor-swift-data-fallacy/",
-      "date": "2025-09-25",
-      "summary": "The Entertainment Strategy Guy: The Taylor Swift Data Fallacy : When the most popular celebrity, creator or piece of IP in one genre or medium switches to a new genre or medium, and then their work succeeds....",
-      "tags": [],
-      "topics": [
         "product strategy"
       ],
       "isPage": false,
@@ -505,23 +1847,6 @@
       "discoverable": true
     },
     {
-      "title": "Gimme friction, baby",
-      "slug": "gimme-friction-baby",
-      "url": "https://notes.seantaylor.work/gimme-friction-baby/",
-      "date": "2025-06-23",
-      "summary": "In a world where everything is free and nothing is valued, what if friction is your feature?",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
       "title": "Authenticity is a Con: Rolling Stones Edition",
       "slug": "authenticity-is-a-con-rolling-stones-edition",
       "url": "https://notes.seantaylor.work/authenticity-is-a-con-rolling-stones-edition/",
@@ -553,18 +1878,13 @@
       "discoverable": true
     },
     {
-      "title": "✱ Understanding (post-industrial) playful media",
-      "slug": "words/culturematic-chaos-containers",
-      "url": "https://notes.seantaylor.work/words/culturematic-chaos-containers/",
       "date": "2025-05-31",
-      "summary": "Grant McCracken, writing in Culturematic, offers a deceptively simple insight: Reality TV still has producers, directors, and writers, but they matter much less. Their job is to manage the start conditions,...",
+      "title": "Understanding (post-industrial) playful media",
+      "url": "https://notes.seantaylor.work/culturematic-chaos-containers/",
+      "slug": "culturematic-chaos-containers",
+      "summary": "",
       "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "product strategy",
-        "culture and creativity"
-      ],
+      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -589,20 +1909,6 @@
       "summary": "Thomas Sowell: There are no solutions. There are only trade offs.",
       "tags": [],
       "topics": [],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "✱ Unintended consequences and the antifragile imagination",
-      "slug": "words/antifragile-imagination",
-      "url": "https://notes.seantaylor.work/words/antifragile-imagination/",
-      "date": "2025-05-16",
-      "summary": "D.A Wallach discussing drug development: So you have to think about delivering to the right place. You have to think about the drug actually working when it gets there. You have to be cognizant of all the ot...",
-      "tags": [],
-      "topics": [
-        "product strategy"
-      ],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -638,11 +1944,23 @@
       "discoverable": true
     },
     {
-      "title": "✱ The Quiet Contempt of Cupertino",
-      "slug": "words/the-quiet-contempt-of-cupertino",
-      "url": "https://notes.seantaylor.work/words/the-quiet-contempt-of-cupertino/",
+      "date": "2025-05-16",
+      "title": "Unintended consequences and the antifragile imagination",
+      "url": "https://notes.seantaylor.work/antifragile-imagination/",
+      "slug": "antifragile-imagination",
+      "summary": "",
+      "tags": [],
+      "topics": [],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "date": "2025-05-15",
-      "summary": "Apple is famous for delighting customers and infamous for squeezing suppliers. But when developers are both, Apple picks the wrong side.",
+      "title": "The Quiet Contempt of Cupertino",
+      "url": "https://notes.seantaylor.work/the-quiet-contempt-of-cupertino/",
+      "slug": "the-quiet-contempt-of-cupertino",
+      "summary": "",
       "tags": [],
       "topics": [],
       "isPage": false,
@@ -665,8 +1983,8 @@
     },
     {
       "title": "Create contexts that compound",
-      "slug": "compunding-contexts",
-      "url": "https://notes.seantaylor.work/compunding-contexts/",
+      "slug": "compounding-contexts",
+      "url": "https://notes.seantaylor.work/compounding-contexts/",
       "date": "2025-05-05",
       "summary": "Kevin Kelly: A steady stream of human attention and thought is applied to inventing new tools, devising new amusements, and creating new wants. But no matter how small and inconsequential, each innovation is...",
       "tags": [],
@@ -724,22 +2042,6 @@
       "discoverable": true
     },
     {
-      "title": "Satisficer's Regret",
-      "slug": "satisficers-regret",
-      "url": "https://notes.seantaylor.work/satisficers-regret/",
-      "date": "2025-04-28",
-      "summary": "Eric Seufert : “Black box” ad optimization and satisficer’s regret",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "playful media",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
       "title": "(P)UGC in the AI Era",
       "slug": "ugc-ai-horseless-carriages",
       "url": "https://notes.seantaylor.work/ugc-ai-horseless-carriages/",
@@ -755,13 +2057,17 @@
       "discoverable": true
     },
     {
-      "title": "Speculation is imagination with action",
-      "slug": "speculation-is-imagination-with-action",
-      "url": "https://notes.seantaylor.work/speculation-is-imagination-with-action/",
-      "date": "2025-04-25",
-      "summary": "Jacob Horne : Speculation is imagination with action.",
+      "title": "Satisficer's Regret",
+      "slug": "satisficers-regret",
+      "url": "https://notes.seantaylor.work/satisficers-regret/",
+      "date": "2025-04-28",
+      "summary": "Eric Seufert : “Black box” ad optimization and satisficer’s regret",
       "tags": [],
-      "topics": [],
+      "topics": [
+        "AI and agents",
+        "playful media",
+        "attention and distribution"
+      ],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -783,16 +2089,13 @@
       "discoverable": true
     },
     {
-      "title": "Free or expensive: why not both?",
-      "slug": "free-or-expensive-why-not-both",
-      "url": "https://notes.seantaylor.work/free-or-expensive-why-not-both/",
-      "date": "2025-04-16",
-      "summary": "Stewart Brand : Information Wants To Be Free. Information also wants to be expensive. Information wants to be free because it has become so cheap to distribute, copy, and recombine too cheap to meter. It wan...",
+      "title": "Speculation is imagination with action",
+      "slug": "speculation-is-imagination-with-action",
+      "url": "https://notes.seantaylor.work/speculation-is-imagination-with-action/",
+      "date": "2025-04-25",
+      "summary": "Jacob Horne : Speculation is imagination with action.",
       "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution"
-      ],
+      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -803,6 +2106,21 @@
       "url": "https://notes.seantaylor.work/how-does-it-feel/",
       "date": "2025-04-16",
       "summary": "Karen X Cheng : Opening Instagram doesn’t make me feel good anymore. I’ve lost control over my feed. Instagram used to be a place where I could get inspired by the artists I chose to follow. I decided what I...",
+      "tags": [],
+      "topics": [
+        "playful media",
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
+      "title": "Free or expensive: why not both?",
+      "slug": "free-or-expensive-why-not-both",
+      "url": "https://notes.seantaylor.work/free-or-expensive-why-not-both/",
+      "date": "2025-04-16",
+      "summary": "Stewart Brand : Information Wants To Be Free. Information also wants to be expensive. Information wants to be free because it has become so cheap to distribute, copy, and recombine too cheap to meter. It wan...",
       "tags": [],
       "topics": [
         "playful media",
@@ -884,6 +2202,28 @@
       "discoverable": true
     },
     {
+      "title": "(P)UGC",
+      "slug": "pugc",
+      "url": "https://notes.seantaylor.work/pugc/",
+      "date": "2025-04-08",
+      "summary": "John Carmack gets it: I think you are misunderstanding what this tech demo actually is, but I will engage with what I think your gripe is — AI tooling trivializing the skillsets of programmers, artists, and...",
+      "tags": [
+        "playful media",
+        "pugc",
+        "punk playthings"
+      ],
+      "topics": [
+        "playful media",
+        "pugc",
+        "punk playthings",
+        "AI and agents",
+        "attention and distribution"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "title": "Calcified complexity",
       "slug": "calcified-complexity",
       "url": "https://notes.seantaylor.work/calcified-complexity/",
@@ -912,31 +2252,9 @@
       "discoverable": true
     },
     {
-      "title": "(P)UGC",
-      "slug": "pugc",
-      "url": "https://notes.seantaylor.work/pugc/",
-      "date": "2025-04-08",
-      "summary": "John Carmack gets it: I think you are misunderstanding what this tech demo actually is, but I will engage with what I think your gripe is — AI tooling trivializing the skillsets of programmers, artists, and...",
-      "tags": [
-        "playful media",
-        "pugc",
-        "punk playthings"
-      ],
-      "topics": [
-        "playful media",
-        "pugc",
-        "punk playthings",
-        "AI and agents",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
       "title": "Triggers for experiences",
-      "slug": "triggers-for-experiences",
-      "url": "https://notes.seantaylor.work/triggers-for-experiences/",
+      "slug": "trigger-for-experience",
+      "url": "https://notes.seantaylor.work/trigger-for-experience/",
       "date": "2025-04-07",
       "summary": "Brian Eno : Stop thinking about art works as objects and start thinking about them as triggers for experiences. What makes a work of art good for you is not something that s already inside it but something t...",
       "tags": [],
@@ -1005,6 +2323,20 @@
       "discoverable": true
     },
     {
+      "title": "Worldbuilding and antifragility",
+      "slug": "worldbuilding-and-antifragility",
+      "url": "https://notes.seantaylor.work/worldbuilding-and-antifragility/",
+      "date": "2025-03-25",
+      "summary": "Alex Danco : The main idea here was: the more complex or valuable is whatever you’re trying to [accomplish], the more important it is for you to build a world around that idea, where other people can walk in...",
+      "tags": [],
+      "topics": [
+        "culture and creativity"
+      ],
+      "isPage": false,
+      "publish": true,
+      "discoverable": true
+    },
+    {
       "title": "The art of attention",
       "slug": "the-art-of-attention",
       "url": "https://notes.seantaylor.work/the-art-of-attention/",
@@ -1014,20 +2346,6 @@
       "topics": [
         "attention and distribution",
         "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Worldbuilding and antifragility",
-      "slug": "worldbuilding-and-antifragility",
-      "url": "https://notes.seantaylor.work/worldbuilding-and-antifragility/",
-      "date": "2025-03-25",
-      "summary": "Alex Danco : The main idea here was: the more complex or valuable is whatever you’re trying to [accomplish], the more important it is for you to build a world around that idea, where other people can walk in...",
-      "tags": [],
-      "topics": [
         "culture and creativity"
       ],
       "isPage": false,
@@ -1059,18 +2377,13 @@
       "discoverable": true
     },
     {
-      "title": "✱ Credibility & Complacency",
-      "slug": "words/credibility-and-complacency",
-      "url": "https://notes.seantaylor.work/words/credibility-and-complacency/",
       "date": "2025-03-13",
-      "summary": "John Gruber on the Apple Intelligence shambles and the undeniable fact that Something Is Rotten in the State of Cupertino : <p In broad strokes, there are four stages of “doneness” or “realness” to features...",
+      "title": "Credibility & Complacency",
+      "url": "https://notes.seantaylor.work/credibility-and-complacency/",
+      "slug": "credibility-and-complacency",
+      "summary": "",
       "tags": [],
-      "topics": [
-        "AI and agents",
-        "playful media",
-        "attention and distribution",
-        "product strategy"
-      ],
+      "topics": [],
       "isPage": false,
       "publish": true,
       "discoverable": true
@@ -1099,329 +2412,6 @@
       "tags": [],
       "topics": [
         "playful media"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Ads as attention levers",
-      "slug": "ads-as-attention-levers",
-      "url": "https://notes.seantaylor.work/ads-as-attention-levers/",
-      "date": "",
-      "summary": "Viewers say they hate ads, but they choose the cheaper ad tier. For Netflix, ads are becoming levers for reach, frequency and attention.",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Authenticity is a Con: Synthetic Social Signals",
-      "slug": "synthetic-social-signals",
-      "url": "https://notes.seantaylor.work/synthetic-social-signals/",
-      "date": "",
-      "summary": "Clipping does not fake popularity so much as manufacture the early signals that make popularity possible.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "playful media",
-        "attention and distribution",
-        "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Bad Jokes Told Well",
-      "slug": "bad-jokes-told-well",
-      "url": "https://notes.seantaylor.work/bad-jokes-told-well/",
-      "date": "",
-      "summary": "A bad joke told well can beat a good joke told badly. The same is true of music, games and playful experiences: context is part of the work.",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Bad Santa Runs An Oil Company",
-      "slug": "bad-santa-runs-an-oil-company",
-      "url": "https://notes.seantaylor.work/bad-santa-runs-an-oil-company/",
-      "date": "",
-      "summary": "Taylor Sheridan's pitch for Landman is familiar but fresh. No deck, no lore, no market map. You can see it straight away.",
-      "tags": [],
-      "topics": [
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Bullets before cannonballs",
-      "slug": "bullets-before-cannonballs",
-      "url": "https://notes.seantaylor.work/bullets-before-cannonballs/",
-      "date": "",
-      "summary": "title: Bullets before cannonballs link: bullets before cannonballs meta description: How Adidas and Nike’s World Cup campaigns show why modern brand building is less bullets versus cannonballs than bullets b...",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Loops of Fury",
-      "slug": "loops-of-fury",
-      "url": "https://notes.seantaylor.work/loops-of-fury/",
-      "date": "",
-      "summary": "How clipping turns songs, scenes and memes into feedback loops where discovery comes unbundled from the thing being discovered.",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Losing My Edge",
-      "slug": "losing-my-edge",
-      "url": "https://notes.seantaylor.work/losing-my-edge/",
-      "date": "",
-      "summary": "Cannes Lions used to be where agencies and marketers traded cultural capital. Now its about losing its edge to creators.",
-      "tags": [],
-      "topics": [
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Monsters and Mirrors",
-      "slug": "monsters-and-mirrors",
-      "url": "https://notes.seantaylor.work/monsters-and-mirrors/",
-      "date": "",
-      "summary": "AI models are not monsters, just reflections of the people, data and institutions that shape them.",
-      "tags": [],
-      "topics": [
-        "AI and agents"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "No Console For Old Men",
-      "slug": "no-console-for-old-men",
-      "url": "https://notes.seantaylor.work/no-console-for-old-men/",
-      "date": "",
-      "summary": "Grey gamers are growing, but the opportunity is not nostalgia hardware. It is short-session, long-arc amusements for lapsed players who still understand games.",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Oxygen For Ideas",
-      "slug": "oxygen-for-ideas",
-      "url": "https://notes.seantaylor.work/oxygen-for-ideas/",
-      "date": "",
-      "summary": "Ideas do not get better in private. They need usage, audience and oxygen.",
-      "tags": [],
-      "topics": [
-        "attention and distribution",
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Personality Drives Distribution",
-      "slug": "personality-drives-distribution",
-      "url": "https://notes.seantaylor.work/personality-drives-distribution/",
-      "date": "",
-      "summary": "meta_description: Performance creates credibility. Personality converts it into cultural collateral.",
-      "tags": [],
-      "topics": [
-        "playful media",
-        "attention and distribution",
-        "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Pop Slop and Parasocial Playthings",
-      "slug": "pop-slop-and-parasocial-playthings",
-      "url": "https://notes.seantaylor.work/pop-slop-and-parasocial-playthings/",
-      "date": "",
-      "summary": "Parasocial feeds create demand for people-shaped amusements. Some of it is slop, but empty calories still compete for appetite.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Pretending on Purpose",
-      "slug": "pretending-on-purpose",
-      "url": "https://notes.seantaylor.work/pretending-on-purpose/",
-      "date": "",
-      "summary": "Meccha Chameleon works because it is less about hiding well than giving players a reason to be funny, silly and creative together.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "playful media",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Accidental Slop Machine",
-      "slug": "the-accidental-slop-machine",
-      "url": "https://notes.seantaylor.work/the-accidental-slop-machine/",
-      "date": "",
-      "summary": "Tweetie made refreshing the feed feel alive. Pull-to-refresh did not invent slop, but it gave the feed a handle to pull.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Constant Gardener",
-      "slug": "the-constant-gardener",
-      "url": "https://notes.seantaylor.work/the-constant-gardener/",
-      "date": "",
-      "summary": "AI knowledge work is starting to look less like making and more like gardening: creating the conditions where good things can grow.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "product strategy",
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Pheromone System",
-      "slug": "the-pheromone-system",
-      "url": "https://notes.seantaylor.work/the-pheromone-system/",
-      "date": "",
-      "summary": "AI can make 1,000 things. The advantage belongs to organisations that can learn from them.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "attention and distribution"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Right to Disappoint You",
-      "slug": "the-right-to-disappoint-you",
-      "url": "https://notes.seantaylor.work/the-right-to-disappoint-you/",
-      "date": "",
-      "summary": "Bob Dylan’s liberalism was not abstract politics. It was self-invention under pressure: the right to disappoint people who think they own your previous self.",
-      "tags": [],
-      "topics": [
-        "playful media"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "The Scarce Thing Is Not Output",
-      "slug": "the-scarce-thing-is-not-output",
-      "url": "https://notes.seantaylor.work/the-scarce-thing-is-not-output/",
-      "date": "",
-      "summary": "As production gets cheaper, making more stuff stops being the interesting bit. The scarce thing is the container people want to keep returning to.",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "playful media",
-        "attention and distribution",
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Unintended Ozempic Consequences",
-      "slug": "unintended-ozempic-consequences",
-      "url": "https://notes.seantaylor.work/unintended-ozempic-consequences/",
-      "date": "",
-      "summary": "GLP-1 drugs suppress appetite. But they may also make consumers more discerning.",
-      "tags": [],
-      "topics": [
-        "culture and creativity"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Wheels of Fortune",
-      "slug": "wheels-of-fortune",
-      "url": "https://notes.seantaylor.work/wheels-of-fortune/",
-      "date": "",
-      "summary": "Are Anthropic and OpenAI building flywheels or hamster wheels?",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "product strategy"
-      ],
-      "isPage": false,
-      "publish": true,
-      "discoverable": true
-    },
-    {
-      "title": "Wheels of Fortune",
-      "slug": "wheels-of-fortune",
-      "url": "https://notes.seantaylor.work/wheels-of-fortune/",
-      "date": "",
-      "summary": "Are Anthropic and OpenAI building flywheels or hamster wheels?",
-      "tags": [],
-      "topics": [
-        "AI and agents",
-        "product strategy"
       ],
       "isPage": false,
       "publish": true,

@@ -1,0 +1,15 @@
+/* Shared navigation for standalone case studies. */
+.case-site-nav {
+  scroll-snap-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem 1.4rem;
+  padding: 1rem max(1.5rem, calc((100% - 1100px) / 2));
+  background: #fafafa;
+  color: #555;
+  font: 400 .875rem/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.case-site-nav a { color: inherit; padding: .25rem 0; text-decoration: none; white-space: nowrap; }
+.case-site-nav a:hover { color: #1a1a1a; text-decoration: underline; }
+.case-site-nav a:focus-visible { outline: 2px solid #1a1a1a; outline-offset: 4px; }
+@media print { .case-site-nav { display: none; } }

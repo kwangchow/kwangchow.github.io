@@ -5,7 +5,12 @@ const SOURCE_DIR =
   "/Users/seantaylor/Library/Mobile Documents/iCloud~md~obsidian/Documents/ST-Work/02. SVLT/a) Writing/notes.seantaylor.work/published";
 const SITE_URL = "https://seantaylor.work";
 const NOTES_URL = "https://notes.seantaylor.work";
-const GENERATED_DATE = "2026-07-03";
+const existingIndex = process.argv.includes("--from-json")
+  ? JSON.parse(fs.readFileSync("notes-index.json", "utf8"))
+  : null;
+const GENERATED_DATE = existingIndex?.generatedAt || new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Dubai", year: "numeric", month: "2-digit", day: "2-digit"
+}).format(new Date());
 
 function htmlEscape(value) {
   return String(value ?? "")
@@ -141,7 +146,7 @@ function renderJson(entries) {
   return JSON.stringify(
     {
       generatedAt: GENERATED_DATE,
-      source: "Local markdown files for notes.seantaylor.work",
+      source: existingIndex?.source || "Local markdown files for notes.seantaylor.work",
       canonicalArchive: `${NOTES_URL}/`,
       entryCount: entries.length,
       entries
@@ -198,7 +203,7 @@ function renderHtml(entries) {
     .map(
       (entry) => `<article>
         <h2><a href="${htmlEscape(entry.url)}">${htmlEscape(entry.title)}</a></h2>
-        <p class="meta">${htmlEscape(entry.date || "Undated")} · ${htmlEscape(entry.topics.join(", "))}</p>
+        <p class="meta">${htmlEscape(entry.date || "Undated")}${entry.topics.length ? ` · ${htmlEscape(entry.topics.join(", "))}` : ""}</p>
         ${entry.summary ? `<p>${htmlEscape(entry.summary)}</p>` : ""}
       </article>`
     )
@@ -219,9 +224,9 @@ function renderHtml(entries) {
   <meta property="og:title" content="Sean Taylor Notes Index">
   <meta property="og:description" content="A discovery index for ${entries.length} public notes on playful media, games, AI, culture, product strategy, attention and innovation.">
   <meta property="og:url" content="${SITE_URL}/notes-index.html">
-  <meta property="og:image" content="${SITE_URL}/og-image.svg">
+  <meta property="og:image" content="${SITE_URL}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="${SITE_URL}/og-image.svg">
+  <meta name="twitter:image" content="${SITE_URL}/og-image.png">
   <script type="application/ld+json">
 ${JSON.stringify(jsonLd, null, 2)}
   </script>
@@ -291,8 +296,18 @@ ${JSON.stringify(jsonLd, null, 2)}
       font-size: 0.85rem;
     }
   </style>
+  <link rel="alternate" type="text/plain" title="LLM context for Sean Taylor" href="/llms.txt">
+  <link rel="stylesheet" href="/case-nav.css">
 </head>
 <body>
+<nav class="case-site-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/experience.html">Experience</a>
+      <a href="/proof-of-work.html">Proof of work</a>
+      <a href="/work-with-me.html">Work with me</a>
+      <a href="https://notes.seantaylor.work/">Notebook</a>
+      <a href="mailto:sean@seantaylor.work">Email</a>
+    </nav>
   <main>
     <header>
       <h1>Sean Taylor Notes Index</h1>
@@ -303,7 +318,7 @@ ${topicMarkup}
     </header>
 ${entryMarkup}
     <footer>
-      <p>Generated from Sean Taylor's local published markdown archive on ${GENERATED_DATE}. Canonical article pages live at <a href="${NOTES_URL}/">notes.seantaylor.work</a>. Machine-readable data: <a href="/notes-index.json">notes-index.json</a>.</p>
+      <p>Updated on ${GENERATED_DATE}. Canonical article pages live at <a href="${NOTES_URL}/">notes.seantaylor.work</a>. Machine-readable data: <a href="/notes-index.json">notes-index.json</a>.</p>
       <p><a href="/">Back to seantaylor.work</a></p>
     </footer>
   </main>
@@ -315,7 +330,8 @@ ${entryMarkup}
 `;
 }
 
-const entries = readEntries();
+const sourceEntries = existingIndex?.entries || readEntries();
+const entries = [...new Map(sourceEntries.map((entry) => [entry.url, entry])).values()];
 fs.writeFileSync("notes-index.json", `${renderJson(entries)}\n`);
-fs.writeFileSync("notes-index.html", renderHtml(entries));
+fs.writeFileSync("notes-index.html", renderHtml(entries).replace(/[ \t]+$/gm, ""));
 console.log(`Generated notes-index.html and notes-index.json for ${entries.length} notes.`);

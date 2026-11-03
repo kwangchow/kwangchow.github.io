@@ -20,11 +20,14 @@ Sean works with founders, studios, publishers and IP owners on platform and form
 ## Pages
 
 - [Home](https://seantaylor.work/): who he is and selected work
+- [Proof of work](https://seantaylor.work/proof-of-work.html): categorized proofs of AI-augmented creative workflows, emerging platform development, original IP production, ecosystem engineering and creative practice
+- [Creative Assembly Loops](https://seantaylor.work/creative-assembly-loops.html): Sean’s human–AI co-production loop for tiny, instantly playable browser games; each loop ships a polished thin slice and improves the process
 - [Experience](https://seantaylor.work/experience.html): full career history, writing, speaking and awards
 - [InGAME impact](https://seantaylor.work/ingame-impact): the games innovation centre Sean designed and led, 2018–2024; its delivery model, outcomes and lessons, including a ten-year forecast of £84.7m in Scottish economic value from £5.3m of public investment (£15.90 per £1)
 - [TV as a Games Platform](https://seantaylor.work/tv-as-a-games-platform): Denki’s approach to interactive television games, covering platform constraints, casual audiences, reusable production systems and the Product Architect role
 - [Quarrel](https://seantaylor.work/quarrel): how Sean produced Denki’s return to original IP, from a disposable pilot to award-winning Xbox Live Arcade and iPhone releases, covering creative direction, playable milestones and team growth
 - [Work with me](https://seantaylor.work/work-with-me.html): the decisions he helps with and how engagements are shaped
+- [Notes index](https://seantaylor.work/notes-index.html): a discovery index of the public notebook; [JSON data](https://seantaylor.work/notes-index.json)
 - [Notebook](https://notes.seantaylor.work/): daily public notes on games, new platforms, playable surfaces and attention
 - [Punk Provocations](https://seantaylor.work/punk-provocations/): 2026 remix of Punk Playthings
 - [After the Games Industry — 15 Theses](https://seantaylor.work/amusement-economy.html): fifteen theses in three acts — The Turn, The Shape and The Practice — on attention, participation and patronage
@@ -43,7 +46,7 @@ Sean works with founders, studios, publishers and IP owners on platform and form
 ## Recognition
 
 - BAFTA full voting member
-- Quarrel: BAFTA Scotland Best Game (2011), BAFTA Games Mobile & Handheld nominee (2012), three TIGA Awards (2012)
+- Quarrel: BAFTA Scotland Best Game (2011), BAFTA Games Mobile & Handheld nominee (2012), TIGA Best Social Game and Best Serious Game (2012)
 - InGAME: Excellence in Games Research, Abertay University (2021)
 - Games Fusion Project, UAL: Best Education Initiative (2019)
 

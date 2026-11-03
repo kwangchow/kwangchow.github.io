@@ -1,4 +1,4 @@
-/* Shared styles for Home, Experience and Work with me. */
+/* Shared styles for the main site pages. */
 :root {
   --text: #1a1a1a;
   --text-secondary: #555;
@@ -20,7 +20,7 @@ body {
 }
 main { max-width: var(--max-width); margin: 0 auto; padding: 3rem 1.5rem; }
 
-.site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.4rem; margin-bottom: 2.5rem; font-size: .875rem; }
+.site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; margin-bottom: 2.5rem; font-size: .875rem; }
 .site-nav a { padding: .25rem 0; color: var(--text-secondary); text-decoration: none; white-space: nowrap; }
 .site-nav a[aria-current="page"] { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
 .site-nav a:hover { color: var(--text); }
