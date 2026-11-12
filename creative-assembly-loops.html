@@ -30,7 +30,7 @@
   "description": "What if we rebuilt Denki's creative assembly lines as agentic loops? A long-term project to remake how playthings get made, one loop at a time.",
   "url": "https://seantaylor.work/creative-assembly-loops.html",
   "inLanguage": "en-GB",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-12",
   "author": {
     "@type": "Person",
     "@id": "https://seantaylor.work/#sean-taylor",
@@ -60,11 +60,11 @@
     .part h2 { display: flex; align-items: baseline; gap: .7rem; margin: 0 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 1.2rem; font-weight: 650; line-height: 1.3; letter-spacing: -.01em; text-transform: none; color: var(--text); }
     .part h2 .idx { font-family: var(--mono); font-size: var(--small); font-weight: 400; letter-spacing: 0; color: var(--text-secondary); }
     .part h3 { margin: 2rem 0 .5rem; font-size: var(--body); font-weight: 650; }
-    .part h4 { margin: 1.4rem 0 .4rem; font-size: var(--body); font-weight: 650; }
     .part p, .part ul, .part table, .part dl { font-size: var(--body); }
+    .part p + p { margin-top: .75rem; }
     .part ul { margin: .4rem 0 0; padding-left: 1.15rem; }
     .part li + li { margin-top: .45rem; }
-    .note { margin-top: 0 !important; color: var(--text-secondary); font-size: var(--small) !important; }
+    .note { margin-top: .75rem !important; color: var(--text-secondary); font-size: var(--small) !important; }
     .pull { margin: 1.6rem 0 0; padding-left: 1rem; border-left: 2px solid var(--text); }
     .pull p { font-size: var(--body); font-weight: 600; }
     .pull p + p { margin-top: .35rem; }
@@ -73,30 +73,34 @@
     th:last-child, td:last-child { padding-right: 0; }
     th { font-size: var(--small); font-weight: 400; color: var(--text-secondary); }
     td:first-child { white-space: nowrap; font-weight: 600; }
+    .num { font-family: var(--mono); font-size: var(--small); font-weight: 400; color: var(--text-secondary); margin-right: .55rem; }
+    /* Scoreboard: one row per plaything; times are hours and minutes */
+    .scoreboard td:first-child { white-space: normal; }
+    .scoreboard .meta { display: block; margin-top: .1rem; font-size: var(--small); font-weight: 400; color: var(--text-secondary); }
+    .scoreboard .t { font-family: var(--mono); font-size: var(--small); white-space: nowrap; text-align: right; }
+    .scoreboard th.t { font-family: inherit; }
+    .scoreboard .next td { color: var(--text-secondary); }
+    .scoreboard .next td:first-child { font-weight: 400; }
+    .signals { list-style: none; padding: 0 !important; }
+    .signals li { padding: .8rem 0; border-bottom: 1px solid var(--border); }
+    .signals li + li { margin-top: 0 !important; }
+    .signals .claim { font-weight: 600; }
+    .signals .reading { display: block; margin-top: .2rem; color: var(--text-secondary); }
+    .signals .reading b { font-family: var(--mono); font-size: var(--small); font-weight: 400; color: var(--text); }
     .roadmap td:first-child { white-space: normal; }
     .roadmap td:nth-child(2) { white-space: nowrap; }
     .roadmap .now { font-weight: 400; color: var(--text-secondary); }
-    .catalogue { list-style: none; margin: 0 !important; padding: 0 !important; }
-    .catalogue > li { margin: 0 !important; padding: 1rem 0; border-bottom: 1px solid var(--border); }
-    .catalogue > li:first-child { padding-top: 0; }
-    .catalogue p + p { margin-top: .25rem; }
-    .catalogue .title { font-weight: 650; }
-    .num { font-family: var(--mono); font-size: var(--small); font-weight: 400; color: var(--text-secondary); margin-right: .55rem; }
-    .catalogue .title .strap { font-weight: 400; color: var(--text-secondary); }
-    .catalogue .meta { font-size: var(--small) !important; color: var(--text-secondary); }
     .roles { display: grid; grid-template-columns: 4.5rem 1fr; gap: .4rem 1rem; margin: 1.25rem 0 0; }
     .roles dt { font-weight: 600; }
     .roles dd { margin: 0; }
     @media (max-width: 520px) {
-      .catalogue .title .strap { display: block; }
-      .catalogue .sep { display: none; }
       .roadmap thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
       .roadmap tr { display: block; padding: .8rem 0; border-bottom: 1px solid var(--border); }
       .roadmap td { display: block; padding: .1rem 0; border: 0; }
       .roadmap td:nth-child(2)::before { content: "Adds: "; color: var(--text-secondary); }
     }
     @media print {
-      .catalogue > li, table { break-inside: avoid; }
+      table, .signals li { break-inside: avoid; }
       .part h2 { break-after: avoid; }
     }
   </style>
@@ -116,56 +120,73 @@
     <article aria-labelledby="page-title">
       <header>
         <h1 id="page-title">Creative Assembly Loops</h1>
-        <p class="status">Loop v1.2 · 1 shipped · 1 in progress · <time datetime="2026-11-03">3 Nov 2026</time></p>
+        <p class="status">Loop v1.6 · 4 shipped · <time datetime="2026-11-12">12 Nov 2026</time></p>
         <p class="subtitle"><strong><em>What if we rebuilt Denki's creative assembly lines as agentic loops?</em></strong></p>
-        <p>A long-term project to remake how playthings get made, one loop at a time.</p>
-        <p class="play"><a href="https://playthings.seantaylor.work/001-pass-master/"><strong>Play 001 Pass Master →</strong></a><span>A one-tap football timing game, on your phone or desktop.</span></p>
-        <p class="byline">Sean Taylor · a working page, updated as the loops run</p>
+        <p>An ongoing project to remake how playthings get made, one loop at a time. The loop is the product; the playthings are the evidence.</p>
+        <p class="play"><a href="https://playthings.seantaylor.work/002-rondo/"><strong>Play 002 Rondo →</strong></a><span>The latest full loop: Pass Master, evolved. On your phone or desktop.</span></p>
+        <p class="byline">Sean Taylor · a working page, updated at the end of every loop</p>
       </header>
 
-      <section class="part" aria-labelledby="what">
-        <h2 id="what"><span class="idx">01</span>What</h2>
-        <p>A human-AI co-production loop for tiny, instantly playable browser games. Each loop ships one thin slice, a polished first playable, and leaves the process better than it found it.</p>
+      <section class="part" aria-labelledby="bet">
+        <h2 id="bet"><span class="idx">01</span>The bet</h2>
+        <p><strong>The goal:</strong> tiny teams making playthings to a Denki standard in hours, not weeks, with agents filling the gaps.</p>
+        <p><a href="https://www.denki.co.uk">Denki</a> solved creative assembly lines 20 years ago. A team of three (Product Architect, Coder and Artist), working inside a network of context, standards and process, took six to ten weeks to make a Denki-quality product for interactive television.</p>
+        <p>My bet is that with an <em>agentic exoskeleton</em> I can make a Denki-quality plaything in hours, inside one coherent, consistent production process: Creative Assembly Loops.</p>
+        <p>The Product Architect role (scout, shaper, showrunner, editor, storyteller) is the part agents can't do, and it's <a href="/proof-of-work.html">the part I've done for 30 years</a>.</p>
       </section>
 
-      <section class="part" aria-labelledby="playthings">
-        <h2 id="playthings"><span class="idx">02</span>Playthings</h2>
-        <p>Every plaything is also an experiment on the loop, and in service of its iteration.</p>
-        <ol class="catalogue" style="margin-top:1.25rem !important">
-          <li>
-            <p class="title"><span class="num">001</span><a href="https://playthings.seantaylor.work/001-pass-master/">Pass Master</a> <span class="strap"><span class="sep">· </span>A one-tap football timing game</span></p>
-            <p>Theory into practice: build it, expose the assumptions, codify the loop.</p>
-            <p class="meta">Shipped 30 Oct 2026 · Untimed: sprints across 27–30 Oct</p>
-          </li>
-          <li>
-            <p class="title"><span class="num">002</span>Rondo <span class="strap"><span class="sep">· </span>Pass Master, evolved</span></p>
-            <p>A more nuanced design and iterate loop within preproduction, timed from seed to sign-off.</p>
-            <p class="meta">In progress from 4 Nov · Timeboxed by stage</p>
-          </li>
-          <li>
-            <p class="title"><span class="num">003</span>Amp <span class="strap"><span class="sep">· </span>A Denki prototype, re-designed and rebuilt from fresh</span></p>
-            <p>A <em>Pepsi</em> challenge: the original Denki prototype stays sealed until the rebuild is done, then we compare and critique.</p>
-            <p class="meta">Next</p>
-          </li>
-        </ol>
-      </section>
+      <section class="part" aria-labelledby="scoreboard">
+        <h2 id="scoreboard"><span class="idx">02</span>Scoreboard</h2>
+        <p>Every plaything is an experiment on the loop. Each one adds a module to the process, and the clock is published with it.</p>
+        <table class="scoreboard">
+          <thead><tr><th scope="col">Plaything</th><th scope="col" class="t">Seed to ship</th><th scope="col" class="t">Human time</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="num">001</span><a href="https://playthings.seantaylor.work/001-pass-master/">Pass Master</a><span class="meta">Full loop · a one-tap football timing game · the loop itself</span></td>
+              <td class="t">4 days</td><td class="t">untimed</td>
+            </tr>
+            <tr>
+              <td><span class="num">002</span><a href="https://playthings.seantaylor.work/002-rondo/">Rondo</a><span class="meta">Full loop · Pass Master, evolved · adds Game Designer</span></td>
+              <td class="t">1h 42m</td><td class="t">1h 02m</td>
+            </tr>
+            <tr>
+              <td><span class="num">002b</span><a href="https://playthings.seantaylor.work/002b-piggy/">Piggy in the Middle</a><span class="meta">Remix of Rondo · a new look · adds Visualiser</span></td>
+              <td class="t">43m</td><td class="t">~19m</td>
+            </tr>
+            <tr>
+              <td><span class="num">001b</span><a href="https://playthings.seantaylor.work/001b-pass-master/">Pass Master (Unity)</a><span class="meta">Port of 001 · same game, real engine · adds Unity</span></td>
+              <td class="t">2h 21m</td><td class="t">~32m</td>
+            </tr>
+            <tr class="next">
+              <td>Next: Amp!<span class="meta">A bake-off challenge: the original Denki prototype stays sealed until the rebuild is done, then we compare and critique.</span></td>
+              <td class="t">–</td><td class="t">–</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="note">All times in hours and minutes. <strong>Seed to ship</strong> is elapsed time on the clock; <strong>human time</strong> is my share of it, the rest is Claude's. Remixes and ports run from kick-off, because they reuse a shipped game's design. ~ marks an estimate from timestamps.</p>
 
-      <section class="part" aria-labelledby="why">
-        <h2 id="why"><span class="idx">03</span>Why</h2>
-        <p><a href="/amusement-economy.html#thesis-4">Everything is a games platform now</a> and <a href="/amusement-economy.html#thesis-12">making is cheap</a>, so the constraint has moved: choosing what to make, <a href="/amusement-economy.html#thesis-13">proving it early</a> and <a href="/amusement-economy.html#thesis-10">polishing it properly</a>. Denki solved that with process, not headcount; agents let a tiny team run that process again, in loops that get better with every pass.</p>
-        <p>The idea isn't what goes in at the top. It's what flows through the loops.</p>
-      </section>
+        <h3>Success signals</h3>
+        <ul class="signals">
+          <li><span class="claim">Seed-to-ship time falls loop over loop, even as modules add complexity.</span>
+            <span class="reading"><b>Too early.</b> One full loop has been timed so far (002 Rondo, 1h 42m). Remixes and ports aren't like-for-like.</span></li>
+          <li><span class="claim">Amp! holds its own in a blind comparison with the sealed original Denki prototype.</span>
+            <span class="reading"><b>Not yet run.</b> Amp! is up next.</span></li>
+          <li><span class="claim">My share of the work shrinks loop over loop, without a drop in quality or judgement.</span>
+            <span class="reading"><b>Early sign.</b> Human time was 1h 02m on the last full loop, and under 35m on the remix and the port.</span></li>
+        </ul>
 
-      <section class="part" aria-labelledby="context">
-        <h2 id="context"><span class="idx">04</span>Context: lines then, loops now</h2>
-        <p>Nathan Baschez argues that the future of work is <a href="https://www.gettheleverage.com/p/against-the-personal-agents-theory">shared factories, not personal agents</a>. It made me think of <a href="https://www.denki.co.uk">Denki</a>, where we didn't run a traditional games studio: we ran <a href="https://www.gamedeveloper.com/production/creative-assembly-lines">creative assembly lines</a>. In 2006 I joined Denki as its third <a href="https://www.gamesindustry.biz/denki-appoints-new-entertainment-product-architect">Entertainment Product Architect</a>, the equivalent of a <a href="https://en.wikipedia.org/wiki/Showrunner">showrunner</a>. I was responsible for the design, production and delivery of all the company's game titles and digital toys, across digital interactive TV, online, mobile and other formats. Games went from idea to live on Sky in six to ten weeks (<a href="/tv-as-a-games-platform">TV as a Games Platform</a>), and I ran the same process in short loops to take <a href="/quarrel">Quarrel</a> from vertical slice to BAFTA Scotland Best Game.</p>
-        <p>If you rebuilt Denki today, it would be a tiny team at the heart of a colony of agents. Tom Critchlow's <a href="https://tomcritchlow.com/2026/06/08/termites-tokens/">Of Termites &amp; Tokens</a> names the shift: “the opportunity is not to build faster, smaller machines - but to become a colony: a mixed population of humans, agents, bots, scripts, dashboards, workflows, alerts, memories and permissions, all sensing and acting through local signals.”</p>
-        <p>So this is agentic <em>augmentation</em>, not automation: the Entertainment Product Architect remade as scout, shaper, showrunner, editor and storyteller. (<a href="https://notes.seantaylor.work/creative-assembly-lines/">More on lines and loops</a>.)</p>
+        <h3>Failure signals</h3>
+        <ul>
+          <li>Five loops in, ship times aren't falling.</li>
+          <li>Five loops in, quality is dropping as speed rises or as modules are added.</li>
+          <li>Five loops in, my share of the hours isn't shrinking, or handing more off is costing quality or judgement.</li>
+        </ul>
+        <p>If any of these fire, I'll change the experiment rather than push harder.</p>
       </section>
 
       <section class="part" aria-labelledby="how">
-        <h2 id="how"><span class="idx">05</span>How it works</h2>
-        <p class="note"><em>Loop v1.2, correct as of 2 November 2026 (the process updates with each release)</em></p>
+        <h2 id="how"><span class="idx">03</span>How it works</h2>
+        <p>A human-AI co-production loop for tiny, instantly playable browser games. Each loop ships one thin slice, a polished first playable, and leaves the process better than it found it.</p>
         <table>
           <thead><tr><th scope="col">Stage</th><th scope="col">Proves</th></tr></thead>
           <tbody>
@@ -178,6 +199,7 @@
             <tr><td>Postscript</td><td>What we learned, written up, and fed back into the loop</td></tr>
           </tbody>
         </table>
+        <p class="note"><em>Loop v1.6, correct as of 12 November 2026 (the process updates with each release). A remix or port of a shipped game takes a fast track: Seed, Play 1.0, then Ship.</em></p>
         <dl class="roles">
           <dt>Me</dt><dd>Vision, direction, shaping, balancing, playtesting, editing and sign-offs.</dd>
           <dt>Claude</dt><dd>Questions, specs, toys, builds, tuning, testing and deployment.</dd>
@@ -189,8 +211,16 @@
         </blockquote>
       </section>
 
+      <section class="part" aria-labelledby="why">
+        <h2 id="why"><span class="idx">04</span>Why</h2>
+        <p><a href="/amusement-economy.html#thesis-4">Everything is a games platform now</a> and <a href="/amusement-economy.html#thesis-12">making is cheap</a>, so the constraint has moved: choosing what to make, <a href="/amusement-economy.html#thesis-13">proving it early</a> and <a href="/amusement-economy.html#thesis-10">polishing it properly</a>. Denki solved that with process, not headcount; agents let a tiny team run that process again, in loops that get better with every pass.</p>
+        <p>Nathan Baschez argues that the future of work is <a href="https://www.gettheleverage.com/p/against-the-personal-agents-theory">shared factories, not personal agents</a>. It made me think of Denki, where we didn't run a traditional games studio: we ran <a href="https://www.gamedeveloper.com/production/creative-assembly-lines">creative assembly lines</a>. In 2006 I joined Denki as its third <a href="https://www.gamesindustry.biz/denki-appoints-new-entertainment-product-architect">Entertainment Product Architect</a>, the equivalent of a <a href="https://en.wikipedia.org/wiki/Showrunner">showrunner</a>. Games went from idea to live on Sky in six to ten weeks (<a href="/tv-as-a-games-platform">TV as a Games Platform</a>), and I ran the same process in short loops to take <a href="/quarrel">Quarrel</a> from vertical slice to BAFTA Scotland Best Game.</p>
+        <p>If you rebuilt Denki today, it would be a tiny team at the heart of a colony of agents. Tom Critchlow's <a href="https://tomcritchlow.com/2026/06/08/termites-tokens/">Of Termites &amp; Tokens</a> names the shift: “the opportunity is not to build faster, smaller machines - but to become a colony: a mixed population of humans, agents, bots, scripts, dashboards, workflows, alerts, memories and permissions, all sensing and acting through local signals.”</p>
+        <p>So this is agentic <em>augmentation</em>, not automation: the Entertainment Product Architect remade as scout, shaper, showrunner, editor and storyteller. (<a href="https://notes.seantaylor.work/creative-assembly-lines/">More on lines and loops</a>.)</p>
+      </section>
+
       <section class="part" aria-labelledby="roadmap">
-        <h2 id="roadmap"><span class="idx">06</span>Roadmap</h2>
+        <h2 id="roadmap"><span class="idx">05</span>Roadmap</h2>
         <p>The long-term ambition is to build the Denki × <a href="https://hbr.org/podcast/2012/05/make-your-own-culturematic">Culturematic</a> × <a href="https://blog.crisp.se/wp-content/uploads/2013/01/HowSpotifyBuildsProducts.pdf">Kniberg</a> equivalent of the <a href="https://en.wikipedia.org/wiki/OODA_loop">OODA loop</a>. For now, I'm focused on Version 1, Creative Assembly Loops: one loop, with a layer added for every plaything it ships, and plenty to do inside it. V2 and V3 are where one loop becomes a network of loops.</p>
         <table class="roadmap">
           <thead><tr><th scope="col">Version</th><th scope="col">Adds</th><th scope="col">The question</th></tr></thead>
@@ -207,30 +237,17 @@
         </blockquote>
       </section>
 
-      <section class="part" aria-labelledby="lessons">
-        <h2 id="lessons"><span class="idx">07</span>Lessons learned</h2>
-        <h3 style="margin-top:0"><span class="num">001</span>Pass Master</h3>
-        <p><strong>In one line:</strong> do the hard human work up front, because every shortcut came back as rework.</p>
-        <!-- TODO: link the full post-mortem and making-of once published -->
-        <h4>What went well</h4>
+      <!-- Logs: uncomment when the first links are live.
+      <section class="part" aria-labelledby="logs">
+        <h2 id="logs"><span class="idx">06</span>Learning logs</h2>
+        <p>What each loop taught, as it happened.</p>
         <ul>
-          <li>We shared one vision: the high concept held from first build to ship, and the style guidelines gave us a shared language for fast feedback.</li>
-          <li>The Denki process worked in theory, then in practice: the more faithfully we followed it, the faster and better it went.</li>
-          <li>We iterated in short loops: with real references and a tuning panel of exposed, editable values, we could test an assumption or fix a design snag in a single round.</li>
-        </ul>
-        <h4>What could have gone better</h4>
-        <ul>
-          <li>We deliberately cut corners at the Seed and on the iteration path, and paid for it in rework.</li>
-          <li>Assumptions and contradictions became direction without being flagged or tested.</li>
-          <li>Our tools and records came late: the tuning panel, the making-of log, the repo and naming conventions.</li>
-        </ul>
-        <h4>Lessons for next time</h4>
-        <ul>
-          <li>Do the hard human work on the Seed, and flag every risk while shaping, before the Spec is signed off.</li>
-          <li>Prove risky assumptions and feel as toys in the Interactive Spec, before building Play 1.0.</li>
-          <li>Follow every stage of the loop. Each one is there for a reason.</li>
+          <li><a href="TODO">The live learning log</a> (a thread on X, updated weekly)</li>
+          <li><a href="TODO">The making of, part one</a> (Substack, end of November)</li>
+          <li><a href="TODO">The making of, part two</a> (Substack, mid-December)</li>
         </ul>
       </section>
+      -->
     </article>
 
     <nav class="follow-section" aria-label="Follow along">
